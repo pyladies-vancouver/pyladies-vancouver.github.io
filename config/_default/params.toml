@@ -32,7 +32,7 @@
 #    checkVersion = false
 
 [home]
-    sections = ["join"]
+    sections = ["get_involved"]
     fullCover = true
     centerHeadline = true
     style = ""
@@ -114,15 +114,15 @@
 #        style = "border-0 card-zoom card-body-margin"
 #        homepage = 3
 #        separator = true
-    [sections.join]
-        title = "Join our community"
+    [sections.get_involved]
+        title = "Get Involved with our Community"
         sectionHeader = "justify-content-end"
         layout = "card"
         sort = "weight"
         reverse = false
         background = "body-tertiary"
         color = "body"
-        style = "border card-feature"
+        style = "justify-content-center"
         cols = 3
         padding = "3"
         header = "none"

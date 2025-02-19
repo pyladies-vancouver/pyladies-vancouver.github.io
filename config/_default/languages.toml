@@ -6,7 +6,7 @@ weight = 1
 # toml-docs-end lang-main
 # toml-docs-start lang-param
 [en.params.head]
-tagline = "A Hugo Theme"
+tagline = "Helping more women become active participants and leaders in the Python open-source community."
 [en.params.social]
 title = "Connect with us"
 caption = "Tag us and use #PyLadiesVancouver hashtag"
