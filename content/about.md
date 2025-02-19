@@ -16,6 +16,7 @@ Persons with any gender identity are welcome to attend our meetups, but should r
 where women's voices are centered.
 
 We expect everyone attending our meetups to abide by our Code of Conduct.
+
 PyLadies is an international mentorship group with a focus on helping more women become active participants and leaders
 in the Python open-source community. Our mission is to promote, educate and advance a diverse Python community through outreach,
 education, conferences, events and social gatherings.
