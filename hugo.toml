@@ -1,0 +1,6 @@
+baseURL = 'https://vancouver.pyladies.com/'
+languageCode = 'en-us'
+title = 'PyLadies Vancouver'
+
+[[module.imports]]
+path = 'github.com/gethinode/hinode'
