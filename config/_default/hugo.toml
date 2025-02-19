@@ -1,10 +1,10 @@
 resourcedir = '../resources/'
-title = "Hinode"
-copyright = "Copyright © 2022 - 2025 Mark Dumay."
+title = "PyLadies Vancouver"
+copyright = "Copyright © PyLadies Vancouver"
 enableGitInfo = true
 
 # additional settings
-baseURL = "https://demo.gethinode.com/"
+baseURL = "https://vancouver.pyladies.com/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true

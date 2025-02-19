@@ -1,8 +1,9 @@
 ---
-title: About
-description: About PyLadies Vancouver
-date: 2022-04-11
-updated: 2023-08-02
+title: About PyLadies Vancouver
+description: PyLadies Vancouver is a Python programming group for women in the Vancouver area.
+date: 2025-02-18
+updated: 2025-02-18
+image: 
 showComments: false
 ---
 
@@ -14,15 +15,22 @@ nonbinary folks, as many (but not all) of the oppressions facing women in our in
 Persons with any gender identity are welcome to attend our meetups, but should respect that PyLadies Vancouver is a place
 where women's voices are centered.
 
-If you would like to present at our meetup, please fill in this form:
-https://sessionize.com/pyladies-vancouver-meetup/
-
-Support PyLadies Vancouver by donating to our OpenCollective fund.
-https://opencollective.com/pyladies-vancouver
-
 We expect everyone attending our meetups to abide by our Code of Conduct.
 PyLadies is an international mentorship group with a focus on helping more women become active participants and leaders
 in the Python open-source community. Our mission is to promote, educate and advance a diverse Python community through outreach,
 education, conferences, events and social gatherings.
 
-PyLadies Vancouver reside and share knowledge on the unceded territories of the xʷməθkwəy̓əm, Skwxwú7mesh, Stó:lō and Səl̓ílwətaʔ/Selilwitulh Nations. We encourage participation from members from Indigenous communities across Canada.
+PyLadies Vancouver reside and share knowledge on the unceded territories of the xʷməθkwəy̓əm, Skwxwú7mesh, Stó:lō an
+Səl̓ílwətaʔ/Selilwitulh Nations. We encourage participation from members from Indigenous communities across Canada.
+
+
+{{< button href="https://opencollective.com/pyladiesvancouver" >}}
+    Donate on Open Collective
+{{< /button >}}
+
+
+
+{{< button href="https://sessionize.com/pyladies-vancouver-meetup/" >}}
+    Speak at our meetup
+{{< /button >}}
+

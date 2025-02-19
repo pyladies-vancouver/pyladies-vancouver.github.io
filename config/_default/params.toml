@@ -32,14 +32,14 @@
 #    checkVersion = false
 
 [home]
-    sections = ["blog", "projects"]
-    fullCover = false
-    centerHeadline = false
+    sections = ["join"]
+    fullCover = true
+    centerHeadline = true
     style = ""
     [home.feature]
-        orientation = "horizontal"
+        orientation = "stacked"
         color = "primary"
-        width = 4
+        width = 6
         align = "start"
 
 [navigation]
@@ -101,44 +101,44 @@
     clipboard = true
 
 [sections]
-    [sections.blog]
-        title = "Blog"
-        sort = "date"
-        reverse = true
-        cols = 3
-        color = ""
-        padding = "0"
-        header = "full"
-        footer = "none"
-        orientation = "stacked"
-        style = "border-0 card-zoom card-body-margin"
-        homepage = 3
-        separator = true
-    [sections.projects]
-        title = "Projects"
+#    [sections.blog]
+#        title = "Blog"
+#        sort = "date"
+#        reverse = true
+#        cols = 3
+#        color = ""
+#        padding = "0"
+#        header = "full"
+#        footer = "none"
+#        orientation = "stacked"
+#        style = "border-0 card-zoom card-body-margin"
+#        homepage = 3
+#        separator = true
+    [sections.join]
+        title = "Join our community"
+        sectionHeader = "justify-content-end"
         layout = "card"
-        sort = "title"
+        sort = "weight"
         reverse = false
-        nested = true
-        cols = 1
         background = "body-tertiary"
         color = "body"
+        style = "border card-feature"
+        cols = 3
         padding = "3"
         header = "none"
-        footer = "tags"
-        orientation = "horizontal"
-        style = "border-1 card-emphasize"
+        footer = "none"
+        orientation = "stacked"
         homepage = 3
-        separator = false
 
 [favicon]
-    logo = "img/favicon.png"
+    logo = "img/pyladiesvancouver-logo.png"
     sizes = [16, 32, 48]
 
 # toml-docs-start theme-colors
 [style]
     primary = "#fa023c"
     secondary = "#fa023c"
+    tertiary = "#fa023c"
     success = "#198754"
     info = "#0dcaf0"
     warning = "#ffc107"
@@ -154,41 +154,41 @@
     themeFontPreload = "/fonts/inter-v12-latin-regular.woff2"
     purge = true
 # toml-docs-end theme-colors
-
+#
 [schema]
     type = "Organization"
-    name = "Hinode"
+    name = "PyLadies Vancouver"
     locale = "en-US"
     # twitter = "https://twitter.com/gethinode"
     # linkedIn = ""
-    github = "https://github.com/gethinode/hinode"
+    github = "https://github.com/pyladies-vancouver/pyladies-vancouver.github.io"
     section = "blog"
     [schema.author]
-        name = "Mark Dumay"
+        name = "PyLadies Vancouver"
         # twitter = "https://twitter.com/markdumay"
-        linkedin = "https://www.linkedin.com/in/markdumay/"
-        github = "https://github.com/markdumay"
+        linkedin = "https://www.linkedin.com/company/pyladies-vancouver/"
+        github = "https://github.com/pyladies-vancouver"
     [schema.logo]
-        url = "img/logo512x512.png"
+        url = "img/pyladiesvancouver-logo.png"
         width = 512
         height = 512
     [schema.image]
-        url = "img/logo1280x640.png"
+        url = "img/pyladiesvancouver-hero-img.png"
         width = 1280
         height = 640
 
 [opengraph]
-    images = ["logo.png"]
+    images = ["img/pyladiesvancouver-square-logo.png"]
     locale = "en_US"
 
-[links]
-    bs_badge_heading = "https://getbootstrap.com/docs/5.3/components/badge/#headings"
-    hinode_docs = "https://gethinode.com"
-    hugo_imaging = "https://gohugo.io/content-management/image-processing/#imaging-configuration"
-    mozilla_image = "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"
-    observatory = "https://observatory.mozilla.org/analyze/demo.gethinode.com"
-    pagespeed = "https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethinode.com%2F"
-    hinode = "https://gethinode.com"
+#[links]
+#    bs_badge_heading = "https://getbootstrap.com/docs/5.3/components/badge/#headings"
+#    hinode_docs = "https://gethinode.com"
+#    hugo_imaging = "https://gohugo.io/content-management/image-processing/#imaging-configuration"
+#    mozilla_image = "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"
+#    observatory = "https://observatory.mozilla.org/analyze/demo.gethinode.com"
+#    pagespeed = "https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethinode.com%2F"
+#    hinode = "https://gethinode.com"
 
 [modules.cookieyes]
     url = "https://cdn-cookieyes.com/client_data/a54b5553f349dd13bd225f8e/script.js"
