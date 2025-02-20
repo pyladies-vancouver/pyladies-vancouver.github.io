@@ -25,7 +25,7 @@ PyLadies Vancouver reside and share knowledge on the unceded territories of the 
 Səl̓ílwətaʔ/Selilwitulh Nations. We encourage participation from members from Indigenous communities across Canada.
 
 
-{{< button href="https://opencollective.com/pyladiesvancouver" >}}
+{{< button href="https://opencollective.com/pyladies-vancouver" >}}
     Donate on Open Collective
 {{< /button >}}
 
