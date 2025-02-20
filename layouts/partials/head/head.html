@@ -20,7 +20,7 @@
         {{- $target := printf "css/%s.css" $mod -}}
         {{- partial "head/stylesheet.html" (dict "source" $source "target" $target "core" false "page" .) }}
     {{- end -}}
-        <link href="https://fosstodon.org/@pyladies_vancouver" rel="me">
+        <a rel="me" href="https://fosstodon.org/@pyladies_vancouver">Mastodon</a>
 
     {{- if hasPrefix (lower .Site.Params.style.themeFontPath) "http" -}}
         <link rel="preconnect" href="https://fonts.googleapis.com">
