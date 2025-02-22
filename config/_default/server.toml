@@ -12,7 +12,7 @@
         font-src 'self' fonts.gstatic.com; \
         form-action 'self'; \
         frame-src player.cloudinary.com www.youtube-nocookie.com www.youtube.com player.vimeo.com app.netlify.com; \
-        img-src 'self' cdn-cookieyes.com *.google-analytics.com *.googletagmanager.com data: *.netlify.com *.imgix.net *.imagekit.io *.cloudinary.com i.ytimg.com tile.openstreetmap.org i.vimeocdn.com; \
+        img-src 'self' cdn-cookieyes.com *.google-analytics.com *.googletagmanager.com *.netlify.com data: *.imgix.net *.imagekit.io *.cloudinary.com i.ytimg.com tile.openstreetmap.org i.vimeocdn.com; \
         manifest-src 'self'; \
         media-src 'self'; \
         object-src 'none'; \
