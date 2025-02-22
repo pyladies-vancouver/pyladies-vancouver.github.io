@@ -1,0 +1,14 @@
+{{ $favicon := .Site.Params.favicon }}
+
+{{ $logo := resources.Get $favicon.logo }}
+
+{{ if $logo }}
+  {{ range $size := $favicon.sizes }}
+    {{ $dimensions := printf "%dx%d" $size $size }}
+    {{ $icon := $logo.Fit $dimensions }}
+    <link rel="icon" type="image/png" sizes="{{ $dimensions }}" href="{{ $icon.RelPermalink }}">
+  {{ end }}
+{{ else }}
+  {{/* Fallback if the logo image is not found */}}
+  <link rel="icon" type="image/png" href="img/pyladiesvancouver-square-logo.png">
+{{ end }}

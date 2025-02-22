@@ -3,6 +3,8 @@
     {{ $desc := .Page.Description | default (.Page.Content | safeHTML | truncate 150) -}}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ partialCached "head/favicon.html" . -}}
+
     {{ hugo.Generator }}
     <meta name="theme" content="{{ printf "Hinode %s" $version }}">
     {{ partialCached "head/stylesheet-core.html" . -}}
@@ -31,7 +33,6 @@
         <link rel="preload" href="{{ $font }}" as="font" type="font/{{ strings.TrimPrefix "." (path.Ext $font) }}" crossorigin>
     {{- end -}}
     {{ partial "head/seo.html" . }}
-    {{ partialCached "head/favicon.html" . -}}
     {{ if gt (len .Site.Languages) 1}}
     <meta name="lang" content="{{ .Site.Language }}">
     {{ end }}
