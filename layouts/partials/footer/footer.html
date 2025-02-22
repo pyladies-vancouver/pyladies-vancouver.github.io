@@ -8,7 +8,7 @@
                 {{ $link := partial "assets/link.html" (dict "destination" (index site.Params.links "hinode") "text" "Hinode" "class" "link-bg-footer" "page" .Page) }}
                 {{ T "poweredBy" $link | safeHTML }}
             {{ end }}
+            <a href="https://www.netlify.com">Deploys by <img src="img/logo-netlify-small-fullcolor-lightmode.png" alt="Deploys by Netlify" width="100px" /> </a>
         </small>
     </div>
-    <a href="https://www.netlify.com"><img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a>
 </footer>
