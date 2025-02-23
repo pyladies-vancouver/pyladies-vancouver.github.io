@@ -168,7 +168,6 @@
       "pb-5",
       "position-fixed",
       "position-relative",
-      "pt-4",
       "pt-5",
       "pt-md-3",
       "px-4",
@@ -211,7 +210,6 @@
       "top-bar"
     ],
     "ids": [
-      "blog",
       "fa-face-frown",
       "fab-bluesky",
       "fab-github",

@@ -1,6 +1,4 @@
-# Hugo
-/public/
+/public
+node_modules/
 /resources/_gen/
-hinode.work.sum
 .hugo_build.lock
-.venv
