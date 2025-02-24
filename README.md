@@ -1,5 +1,7 @@
 # Vancouver PyLadies Static Site
 
+![Logo](https://raw.githubusercontent.com/pyladies-vancouver/pyladies-vancouver.github.io/main/static/img/pyladiesvancouver-square-logo.png)
+
 Welcome to the Vancouver PyLadies static site! This project is built with [Hugo](https://gohugo.io/) and uses [Hinode](https://gethinode.com/) as a theme. The site is deployed via [Netlify](https://www.netlify.com/).  
 
 
@@ -76,4 +78,4 @@ git push origin your-branch-name
 7. Create a Pull Request
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT license](LICENSE).
