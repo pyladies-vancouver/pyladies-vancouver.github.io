@@ -192,3 +192,28 @@
 
 [modules.cookieyes]
     url = "https://cdn-cookieyes.com/client_data/a54b5553f349dd13bd225f8e/script.js"
+
+# toml-docs-start headers
+[headers]
+  [headers.netlify]
+    source = "netlify.toml"
+# toml-docs-end headers
+
+# toml-docs-start csp
+[modules.hinode.csp]
+    style-src = ["www.youtube.com"]
+    font-src = ["fonts.gstatic.com"]
+    frame-src = [
+        "player.cloudinary.com",
+        "www.youtube-nocookie.com",
+        "www.youtube.com",
+        "app.netlify.com"
+    ]
+    img-src = [
+        "data:",
+        "*.imgix.net",
+        "*.imagekit.io",
+        "*.cloudinary.com",
+        "i.ytimg.com",
+        "www.netlify.com"
+    ]
