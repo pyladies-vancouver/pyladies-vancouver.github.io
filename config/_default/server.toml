@@ -11,8 +11,8 @@
         default-src 'none'; \
         font-src 'self' fonts.gstatic.com; \
         form-action 'self'; \
-        frame-src player.cloudinary.com www.youtube-nocookie.com www.youtube.com player.vimeo.com; \
-        img-src 'self' cdn-cookieyes.com *.google-analytics.com *.googletagmanager.com data: *.imgix.net *.imagekit.io *.cloudinary.com i.ytimg.com tile.openstreetmap.org i.vimeocdn.com; \
+        frame-src player.cloudinary.com www.youtube-nocookie.com www.youtube.com player.vimeo.com app.netlify.com; \
+        img-src 'self' cdn-cookieyes.com *.google-analytics.com *.googletagmanager.com *.netlify.com data: *.imgix.net *.imagekit.io *.cloudinary.com i.ytimg.com tile.openstreetmap.org i.vimeocdn.com; \
         manifest-src 'self'; \
         media-src 'self'; \
         object-src 'none'; \
