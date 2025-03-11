@@ -207,7 +207,8 @@
         "player.cloudinary.com",
         "www.youtube-nocookie.com",
         "www.youtube.com",
-        "app.netlify.com"
+        "app.netlify.com",
+        "www.canva.com"
     ]
     img-src = [
         "data:",
