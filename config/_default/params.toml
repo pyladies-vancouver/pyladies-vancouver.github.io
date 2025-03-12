@@ -137,7 +137,7 @@
 # toml-docs-start theme-colors
 [style]
     primary = "#fa023c"
-    secondary = "#fa023c"
+    secondary = "#c8102e"
     tertiary = "#fa023c"
     success = "#198754"
     info = "#0dcaf0"
@@ -191,7 +191,7 @@
 #    hinode = "https://gethinode.com"
 
 [modules.cookieyes]
-    url = "https://cdn-cookieyes.com/client_data/a54b5553f349dd13bd225f8e/script.js"
+    url = "https://cdn-cookieyes.com/client_data/537760a88a9e93feaccdbfc1/script.js"
 
 # toml-docs-start headers
 [headers]
@@ -207,7 +207,9 @@
         "player.cloudinary.com",
         "www.youtube-nocookie.com",
         "www.youtube.com",
-        "app.netlify.com"
+        "app.netlify.com",
+        "www.canva.com",
+        "drive.google.com"
     ]
     img-src = [
         "data:",
