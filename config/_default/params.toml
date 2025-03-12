@@ -208,7 +208,8 @@
         "www.youtube-nocookie.com",
         "www.youtube.com",
         "app.netlify.com",
-        "www.canva.com"
+        "www.canva.com",
+        "drive.google.com"
     ]
     img-src = [
         "data:",
