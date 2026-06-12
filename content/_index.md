@@ -10,11 +10,15 @@ actions:
     title: "About us"
     weight: 1
   donate:
-    url: "https://opencollective.com/pyladies-vancouver"
+    url: "https://psfmember.org/civicrm/contribute/transact/?reset=1&id=53"
     title: "Donate"
-    weight: 3
+    weight: 4
   events:
-    url: "https://meetup.com/pyladies-vancouver"
-    title: "Join our Meetup"
+    url: "https://luma.com/pyladiesvancouver"
+    title: "RSVP on Luma"
     weight: 2
+  blog:
+    url: "blog"
+    title: "Blog"
+    weight: 3
 ---

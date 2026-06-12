@@ -32,7 +32,7 @@
 #    checkVersion = false
 
 [home]
-    sections = ["get_involved"]
+    sections = ["blog", "get_involved"]
     fullCover = true
     centerHeadline = true
     style = ""
@@ -101,19 +101,19 @@
     clipboard = true
 
 [sections]
-#    [sections.blog]
-#        title = "Blog"
-#        sort = "date"
-#        reverse = true
-#        cols = 3
-#        color = ""
-#        padding = "0"
-#        header = "full"
-#        footer = "none"
-#        orientation = "stacked"
-#        style = "border-0 card-zoom card-body-margin"
-#        homepage = 3
-#        separator = true
+    [sections.blog]
+        title = "Latest from our Blog"
+        sort = "date"
+        reverse = true
+        cols = 3
+        color = ""
+        padding = "0"
+        header = "full"
+        footer = "none"
+        orientation = "stacked"
+        style = "border-0 card-zoom card-body-margin"
+        homepage = 3
+        separator = true
     [sections.get_involved]
         title = "Get Involved with our Community"
         sectionHeader = "justify-content-end"
@@ -204,6 +204,7 @@
     style-src = ["www.youtube.com"]
     font-src = ["fonts.gstatic.com"]
     frame-src = [
+        "'self'",
         "player.cloudinary.com",
         "www.youtube-nocookie.com",
         "www.youtube.com",
