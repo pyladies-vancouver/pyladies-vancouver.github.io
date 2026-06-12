@@ -4,3 +4,4 @@ node_modules/
 .hugo_build.lock
 hinode.work.sum
 go.sum
+hugo_stats.json
