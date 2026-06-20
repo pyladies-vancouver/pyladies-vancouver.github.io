@@ -210,7 +210,8 @@
         "www.youtube.com",
         "app.netlify.com",
         "www.canva.com",
-        "drive.google.com"
+        "drive.google.com",
+        "luma.com"
     ]
     img-src = [
         "data:",
