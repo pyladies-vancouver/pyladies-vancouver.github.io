@@ -25,8 +25,8 @@ PyLadies Vancouver reside and share knowledge on the unceded territories of the 
 Səl̓ílwətaʔ/Selilwitulh Nations. We encourage participation from members from Indigenous communities across Canada.
 
 
-{{< button href="https://psfmember.org/civicrm/contribute/transact/?reset=1&id=53" >}}
-    Donate to PyLadiesCon
+{{< button href="https://psfmember.org/civicrm/contribute/transact/?reset=1&id=60" >}}
+    Donate to PyLadies Vancouver
 {{< /button >}}
 
 

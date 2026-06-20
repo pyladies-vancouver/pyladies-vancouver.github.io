@@ -10,7 +10,7 @@ actions:
     title: "About us"
     weight: 1
   donate:
-    url: "https://psfmember.org/civicrm/contribute/transact/?reset=1&id=53"
+    url: "https://psfmember.org/civicrm/contribute/transact/?reset=1&id=60"
     title: "Donate"
     weight: 4
   events:
