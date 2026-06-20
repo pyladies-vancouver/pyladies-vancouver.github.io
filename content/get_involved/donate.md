@@ -7,9 +7,9 @@ weight: 2
 colormode: true
 ---
 
-Support the PyLadies community by donating to PyLadiesCon, the global PyLadies
-online conference.
+Support PyLadies Vancouver to help cover the costs of running our meetups, workshops,
+and community events.
 
-{{< button href="https://psfmember.org/civicrm/contribute/transact/?reset=1&id=53" >}}
-    Donate to PyLadiesCon
+{{< button href="https://psfmember.org/civicrm/contribute/transact/?reset=1&id=60" >}}
+    Donate to PyLadies Vancouver
 {{< /button >}}
