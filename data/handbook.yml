@@ -1,0 +1,35 @@
+- title: Ways to participate
+  link: /handbook/ways-to-participate
+  pages:
+    - title: Speak at our meetup
+      link: speak
+    - title: Host a venue
+      link: host
+    - title: Donate and sponsor
+      link: donate
+    - title: Help organize
+      link: help-organize
+- title: Organizing a meetup
+  link: /handbook/organizing-a-meetup
+  pages:
+    - title: Where things live
+      link: where-things-live
+    - title: Pick a date and venue
+      link: date-and-venue
+    - title: Speakers and call for proposals
+      link: speakers-and-cfp
+    - title: Create the Luma event
+      link: create-luma-event
+    - title: Announce the event
+      link: announce
+    - title: On the day
+      link: on-the-day
+    - title: Wrap-up and recap
+      link: wrap-up-and-recap
+    - title: Updating the website
+      link: updating-the-website
+- title: Templates
+  link: /handbook/templates
+  pages:
+    - title: Luma event template
+      link: luma-event-template

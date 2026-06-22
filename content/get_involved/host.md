@@ -12,6 +12,6 @@ If you have an event space in Vancouver, and can host our next meetup, we'd love
 A space for 20-30 people with projector would be great. We're also looking for a space that is accessible by public transit.
 
 
-{{< button href="mailto:vancouver@pyladies.com" >}}
-    Get in touch
+{{< button href="/handbook/ways-to-participate/host/" >}}
+    Host a venue
 {{< /button >}}
