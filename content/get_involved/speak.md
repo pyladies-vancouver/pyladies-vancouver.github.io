@@ -10,6 +10,6 @@ colormode: true
 We're always looking for speakers at our meetup! No experience necessary. Whether you're speaking for the first time, or a
 seasoned presenter, we welcome you in our community.
 
-{{< button href="https://sessionize.com/pyladies-vancouver-meetup/" >}}
-    Submit your talk idea.
+{{< button href="/handbook/ways-to-participate/speak/" >}}
+    Speak at our meetup
 {{< /button >}}

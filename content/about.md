@@ -24,6 +24,13 @@ education, conferences, events and social gatherings.
 PyLadies Vancouver reside and share knowledge on the unceded territories of the xʷməθkwəy̓əm, Skwxwú7mesh, Stó:lō an
 Səl̓ílwətaʔ/Selilwitulh Nations. We encourage participation from members from Indigenous communities across Canada.
 
+Want to get involved or stay in touch between meetups? Join the conversation in the
+**#city-vancouver** channel on the PyLadies Slack.
+
+{{< button href="https://slackin.pyladies.com" >}}
+    Join the PyLadies Slack
+{{< /button >}}
+
 
 {{< button href="https://psfmember.org/civicrm/contribute/transact/?reset=1&id=60" >}}
     Donate to PyLadies Vancouver
