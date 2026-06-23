@@ -65,9 +65,7 @@ one of these at a future meetup!
 
 {{< image src="img/pyladiesvancouver-tote.jpg" ratio="1x1" class="col-8 col-sm-6 col-md-4 mx-auto" caption="PyLadies Vancouver tote bag" >}}
 
-## Other Python news
-
-### PyLadies in the community
+## PyLadies news
 
 We're one of many PyLadies chapters! If you're travelling, or know Pythonistas elsewhere,
 here are a few other active chapters worth following:
@@ -81,13 +79,14 @@ here are a few other active chapters worth following:
 
 You can find your nearest chapter on the [PyLadies website](https://pyladies.com/locations/).
 
-It's been a wonderful season for PyLadies recognition! Congratulations to the 2026
+It's been a wonderful season for PyLadies recognition, and we want to shine a light on
+members of our global PyLadies community. Congratulations to the 2026
 [Outstanding PyLady Award](https://pyladies.com/blog/Celebrating-the-Winners-of-the-Outstanding-PyLady-Awards-for-2026/outstanding-pylady-winners/)
-recipients: María José Molina-Contreras, Denny Perez, and Fay Shaw. And congratulations to
-the PyLadies recently honoured with
-[PSF Community Service Awards](https://www.python.org/community/awards/psf-awards/):
-Inessa Pawson (PyLadies SWFL), María José Molina-Contreras (PyLadies en Español),
-Micaela Reyes (PyLadies Manila), and Sarah Kuchinsky (PyLadies Silicon Valley). 🎉
+recipients: María José Molina-Contreras, Denny Perez, and Fay Shaw! And among this year's
+[PSF Community Service Award](https://www.python.org/community/awards/psf-awards/)
+recipients, we're especially celebrating these PyLadies: Inessa Pawson (PyLadies SWFL),
+María José Molina-Contreras (PyLadies en Español), Micaela Reyes (PyLadies Manila), and
+Sarah Kuchinsky (PyLadies Silicon Valley). 🎉
 
 {{< alert color="info" >}}
 **Know someone who deserves recognition?** You can nominate community members for awards,
@@ -96,6 +95,8 @@ too! If you know a PyLady doing great work,
 Or [let us know](mailto:vancouver@pyladies.com) and we can nominate as a group, which makes
 the nomination even stronger.
 {{< /alert >}}
+
+## Python news
 
 ### What the Python core team is discussing
 
