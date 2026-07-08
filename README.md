@@ -2,60 +2,56 @@
 
 ![Logo](https://raw.githubusercontent.com/pyladies-vancouver/pyladies-vancouver.github.io/main/static/img/pyladiesvancouver-square-logo.png)
 
-Welcome to the Vancouver PyLadies static site! This project is built with [Hugo](https://gohugo.io/) and uses [Hinode](https://gethinode.com/) as a theme. The site is deployed via [Netlify](https://www.netlify.com/).  
+Welcome to the Vancouver PyLadies static site! This project is built with
+[Hugo](https://gohugo.io/) and uses the **Popular** theme (bundled in
+`themes/popular`). The site is deployed via [Netlify](https://www.netlify.com/).
 
+## 🚀 Getting Started
 
-## 🚀 Getting Started  
+### **Prerequisites**
 
-### **Prerequisites**  
-Ensure you have the following installed on your system:  
+- [Hugo](https://gohugo.io/getting-started/installing/) v0.126.0 or newer.
+  The theme uses plain CSS, so the standard (non-extended) Hugo works, and there
+  are no Go, Node.js, or Hugo module dependencies.
 
-- [Go](https://go.dev/doc/install)  
-- [Hugo](https://gohugo.io/getting-started/installing/) 
-- [Node.js](https://nodejs.org/) & [npm](https://www.npmjs.com/)  
+### **Installation**
 
-### **Installation**  
-
-1. **Clone the repository**  
+**Clone the repository**
 ```sh
-git clone https://github.com/yourusername/vancouver-pyladies-site.git
-cd vancouver-pyladies-site
+git clone https://github.com/pyladies-vancouver/pyladies-vancouver.github.io.git
+cd pyladies-vancouver.github.io
 ```
 
-2.  **Install Hugo Modules**
-```sh
-hugo mod get -u
-```
-3. **Install Node.js dependencies for PostCSS processing**
-```sh
-npm install
-```
+That's it — no other install steps.
 
 ## 📁 Project Structure
 
 ```
-├── archetypes/      # Template files for new content
-├── assets/          # Uncompiled CSS, JS, images
-├── config/          # Settings and options
 ├── content/         # Site content (Markdown files)
-├── layouts/         # HTML templates
-├── public/          # Processed static files
-├── static/          # Unprocessed static files (copied as-is)
-├── go.mod           # Go module definition
-├── hinode.work      # Hinode module definition
-├── hugo.toml        # Hugo configuration
-└── package.json     # Node.js dependencies
+│   ├── blog/        # Blog posts
+│   ├── events/      # Events (upcoming vs past, split by date)
+│   ├── organizers/  # Organizer cards
+│   ├── handbook.md  # Community handbook (docs page)
+│   └── runbooks.md  # Organizer runbooks (docs page)
+├── layouts/         # Site-level template overrides
+├── static/          # Unprocessed static files (images, PDFs)
+├── themes/popular/  # The Popular theme
+├── hugo.toml        # Hugo configuration (menu, brand colours, footer)
+└── netlify.toml     # Netlify build settings and redirects
 ```
 
 ## ⚒️ Development
 
 **Start Hugo's local development server**
-    
+
 ```sh
-hugo server -D
+hugo server
 ```
 
-This starts a local server with drafts enabled (-D) and watches for file changes. The site will be available at http://localhost:1313/.
+The site will be available at http://localhost:1313/.
+
+See the [Meetup Runbooks](https://vancouver.pyladies.com/runbooks/#updating-the-website)
+for how the site is edited and deployed.
 
 ## 🤝 Contributing
 

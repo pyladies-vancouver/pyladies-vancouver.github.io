@@ -1,12 +1,10 @@
 ---
-author: Mariatta
+authors: ["mariatta"]
 title: "July meetup: AI agents and LLMs, plus Python and PyLadies news"
 date: 2026-06-23
 description: "Join PyLadies Vancouver on July 6 for two talks on AI agents and LLMs, plus a roundup of Python and PyLadies news: award winners, open CFPs, and upcoming conferences."
 tags: ["python", "pyladies", "vancouver", "meetup", "events", "ai"]
-thumbnail:
-  url: img/julyblogbanner.png
-  ratio: 21x9
+image: img/julyblogbanner.png
 ---
 
 We're excited to announce our next PyLadies Vancouver meetup on **Monday, July 6, 2026**,
@@ -20,9 +18,7 @@ the details, plus a roundup of Python and PyLadies news.
 
 Spots are limited, so please RSVP through our Luma calendar:
 
-{{< button color="primary" tooltip="RSVP for the July 6 meetup" href="https://luma.com/pyladiesvancouver" >}}
-    RSVP on Luma
-{{< /button >}}
+{{< button url="https://luma.com/pyladiesvancouver" label="RSVP on Luma" icon="fa-solid fa-calendar" >}}
 
 We handle RSVPs through [Luma](https://luma.com/pyladiesvancouver) now, and you can also
 [subscribe to our Luma calendar](https://api.luma.com/ics/get?entity=calendar&id=cal-EefnU0O5BifyHgg)
@@ -56,14 +52,15 @@ AI solutions. We're grateful for their support of the local Python community.
 PyLadies Vancouver is run entirely by volunteers, and donations help us keep our meetups
 free and welcoming. If you're able, please consider chipping in:
 
-{{< button color="secondary" tooltip="Donate to PyLadies Vancouver" href="https://psfmember.org/civicrm/contribute/transact/?reset=1&id=60" >}}
-    Donate to PyLadies Vancouver
-{{< /button >}}
+{{< button url="https://psfmember.org/civicrm/contribute/transact/?reset=1&id=60" label="Donate to PyLadies Vancouver" variant="secondary" icon="fa-solid fa-heart" >}}
 
 Love our PyLadies Vancouver tote bags? For a **minimum donation of $25**, you can pick up
 one of these at a future meetup!
 
-{{< image src="img/pyladiesvancouver-tote.jpg" ratio="1x1" class="col-8 col-sm-6 col-md-4 mx-auto" caption="PyLadies Vancouver tote bag" >}}
+<figure style="max-width:20rem;margin:1.5rem auto;text-align:center">
+  <img src="/img/pyladiesvancouver-tote.jpg" alt="PyLadies Vancouver tote bag" loading="lazy" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px">
+  <figcaption style="font-size:.85rem;color:#5b6b76;margin-top:.5rem">PyLadies Vancouver tote bag</figcaption>
+</figure>
 
 ## PyLadies news
 
@@ -88,13 +85,12 @@ recipients, we're especially celebrating these PyLadies: Inessa Pawson (PyLadies
 María José Molina-Contreras (PyLadies en Español), Micaela Reyes (PyLadies Manila), and
 Sarah Kuchinsky (PyLadies Silicon Valley). 🎉
 
-{{< alert color="info" >}}
-**Know someone who deserves recognition?** You can nominate community members for awards,
+{{% callout tone="tip" title="Know someone who deserves recognition?" %}} You can nominate community members for awards,
 too! If you know a PyLady doing great work,
 [nominate them for an Outstanding PyLady Award](https://pyladies.com/blog/Nominate-a-PyLady-for-the-Outstanding-PyLadies-Award/outstanding-award-nominations/).
 Or [let us know](mailto:vancouver@pyladies.com) and we can nominate as a group, which makes
 the nomination even stronger.
-{{< /alert >}}
+{{% /callout %}}
 
 ## Python news
 
@@ -159,10 +155,10 @@ places to give a first talk:
 - **[PyBay](https://pybay.org/)** (San Francisco): CFP open until **July 12, 2026**. October
   3, 2026 at the UCSF Mission Bay Conference Center. [Submit a talk to PyBay](https://sessionize.com/pybay2026).
 
-{{< alert color="info" >}}
+{{% callout tone="tip" title="Your talk could be next" %}}
 If you've been thinking about speaking, this is your sign! We're happy to help you
 brainstorm or review a proposal, so [reach out](mailto:vancouver@pyladies.com).
-{{< /alert >}}
+{{% /callout %}}
 
 ### Upcoming regional Python conferences
 
