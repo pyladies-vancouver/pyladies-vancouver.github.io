@@ -1,0 +1,5 @@
+{{- /* Site override of the theme's rel-href partial: same subpath handling, but
+     the result is marked safeHTML so it leaves the partial unescaped and the
+     calling href attribute escapes it exactly once (upstream double-escapes
+     query-string URLs, e.g. & becomes &amp;amp;). Drop once fixed upstream. */ -}}
+{{- if hasPrefix . "/" -}}{{ strings.TrimPrefix "/" . | relLangURL | safeHTML }}{{- else -}}{{ . | safeHTML }}{{- end -}}

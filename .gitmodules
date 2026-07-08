@@ -1,0 +1,3 @@
+[submodule "themes/popular"]
+	path = themes/popular
+	url = https://github.com/mariatta/hugo-theme-popular.git
