@@ -1,6 +1,200 @@
-baseURL = 'https://vancouver.pyladies.com/'
-languageCode = 'en-us'
-title = 'PyLadies Vancouver'
+baseURL = "https://vancouver.pyladies.com/"
+languageCode = "en-us"
+title = "PyLadies Vancouver"
+copyright = "Copyright © PyLadies Vancouver"
 
-[[module.imports]]
-path = 'github.com/gethinode/hinode'
+enableEmoji = true
+enableRobotsTXT = true
+enableGitInfo = true
+timeout = "180s"
+
+# Upcoming events are future-dated pages in content/events/: they must be
+# built for the events list and the homepage "Next meetup" section to work.
+buildFuture = true
+
+# The Popular theme is consumed as a Hugo Module (see go.mod / go.sum).
+# Update with: hugo mod get -u github.com/Mariatta/hugo-theme-popular
+# NOTE: this table must stay below the top-level keys above, or TOML
+# swallows them into [module].
+[module]
+  [[module.imports]]
+    path = "github.com/Mariatta/hugo-theme-popular"
+
+[taxonomies]
+  tag = "tags"
+
+[pagination]
+  pagerSize = 9
+
+[markup.goldmark.renderer]
+  unsafe = true            # allow inline HTML in Markdown (Luma calendar embed, photo grids)
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 3
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-T85PPZ36GN"
+
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# ------------------------------------------------------------------
+# NAVIGATION: the top menu.
+# ------------------------------------------------------------------
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+[[menu.main]]
+  name = "About us"
+  parent = "About"
+  url = "/about/"
+  weight = 10
+[[menu.main]]
+  name = "Organizers"
+  parent = "About"
+  url = "/organizers/"
+  weight = 20
+[[menu.main]]
+  name = "Events"
+  url = "/events/"
+  weight = 20
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 30
+[[menu.main]]
+  name = "Handbook"
+  url = "/handbook/"
+  weight = 50
+
+# ==================================================================
+# PARAMS
+# ==================================================================
+[params]
+  tagline = "Helping more women become active participants and leaders in the Python open-source community"
+  description = "PyLadies Vancouver is a Python programming group for women in the Vancouver area. All skill levels welcome."
+  brandName = "PyLadies"
+  brandSub = "Vancouver"
+  logo = "img/pyladiesvancouver-logo.png"
+  favicon = "img/pyladiesvancouver-square-logo.png"
+  ogImage = "img/pyladiesvancouver-hero-img.png"
+  customCSS = ["css/custom.css"]
+  landAcknowledgement = "PyLadies Vancouver resides and shares knowledge on the unceded territories of the xʷməθkwəy̓əm (Musqueam), Skwxwú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔɬ (Tsleil-Waututh) Nations. We encourage participation from members of Indigenous communities across Canada."
+
+  # ---- Brand tokens (defaults already match the PyLadies palette) ----
+  [params.brand]
+    primary       = "#fa023c"
+    primaryHover  = "#d4023a"
+    primaryActive = "#c8102e"
+    secondary     = "#c8102e"
+    accent        = "#2e2f93"
+    ink           = "#142a36"
+    # The released theme's default palette is champagne/gold; these washes
+    # restore the PyLadies pink hero and section backgrounds.
+    surfaceWash     = "#fad3e2"
+    surfaceWashSoft = "#fff5f9"
+    surfaceInk    = "#142a36"
+    fontSans      = "Inter, system-ui, sans-serif"
+    fontDisplay   = "Quantico, Inter, sans-serif"
+
+  # ---- Header call-to-action button ----
+  [params.cta]
+    label = "RSVP on Luma"
+    url   = "https://luma.com/pyladiesvancouver"
+    icon  = "fa-solid fa-calendar"
+
+  # ---- Support box shown at the bottom of each blog post ----
+  [params.support]
+    badge = "Support PyLadies Vancouver"
+    text  = "PyLadies Vancouver is run entirely by volunteers, and donations help us keep our meetups free and welcoming."
+    [[params.support.ctas]]
+      label = "Donate to PyLadies Vancouver"
+      url   = "https://psfmember.org/civicrm/contribute/transact/?reset=1&id=60"
+      variant = "secondary"
+    [[params.support.ctas]]
+      label = "RSVP on Luma"
+      url   = "https://luma.com/pyladiesvancouver"
+      variant = "outline"
+
+  # ---- Social icons (footer + organizer cards) ----
+  [[params.social]]
+    label = "LinkedIn"
+    icon  = "fa-brands fa-linkedin"
+    url   = "https://linkedin.com/company/pyladies-vancouver"
+  [[params.social]]
+    label = "Instagram"
+    icon  = "fa-brands fa-instagram"
+    url   = "https://www.instagram.com/pyladiesyvr"
+  [[params.social]]
+    label = "Mastodon"
+    icon  = "fa-brands fa-mastodon"
+    url   = "https://fosstodon.org/@pyladies_vancouver"
+  [[params.social]]
+    label = "Bluesky"
+    icon  = "fa-brands fa-bluesky"
+    url   = "https://bsky.app/profile/pyladiesvancouver.bsky.social"
+  [[params.social]]
+    label = "GitHub"
+    icon  = "fa-brands fa-github"
+    url   = "https://github.com/pyladies-vancouver"
+  [[params.social]]
+    label = "YouTube"
+    icon  = "fa-brands fa-youtube"
+    url   = "https://www.youtube.com/@PyLadiesVancouver"
+  [[params.social]]
+    label = "Subscribe to our Luma calendar"
+    icon  = "fa-solid fa-calendar"
+    url   = "https://api.luma.com/ics/get?entity=calendar&id=cal-EefnU0O5BifyHgg"
+  [[params.social]]
+    label = "RSS"
+    icon  = "fa-solid fa-rss"
+    url   = "https://vancouver.pyladies.com/index.xml"
+
+  # ---- Footer link columns ----
+  [params.footer]
+    tagline = "Promote · Educate · Advance a diverse Python community"
+    [params.footer.credit]
+      label = "Popular Hugo theme by Mariatta"
+      url   = "https://mariatta.ca"
+    [[params.footer.columns]]
+      title = "Community"
+      [[params.footer.columns.links]]
+        label = "About us"
+        url = "/about/"
+      [[params.footer.columns.links]]
+        label = "Blog"
+        url = "/blog/"
+      [[params.footer.columns.links]]
+        label = "Code of Conduct"
+        url = "https://www.pyladies.com/CodeOfConduct/"
+    [[params.footer.columns]]
+      title = "Get involved"
+      [[params.footer.columns.links]]
+        label = "Get involved"
+        url = "/get-involved/"
+      [[params.footer.columns.links]]
+        label = "Speak at our meetup"
+        url = "/speak/"
+      [[params.footer.columns.links]]
+        label = "Donate"
+        url = "/donate/"
+      [[params.footer.columns.links]]
+        label = "Join the PyLadies Slack"
+        url = "https://slackin.pyladies.com"
+    [[params.footer.columns]]
+      title = "Organizers"
+      [[params.footer.columns.links]]
+        label = "Meet the organizers"
+        url = "/organizers/"
+      [[params.footer.columns.links]]
+        label = "Organizer Handbook"
+        url = "/handbook/"
+      [[params.footer.columns.links]]
+        label = "Meetup Runbooks"
+        url = "/runbooks/"
+      [[params.footer.columns.links]]
+        label = "Contribute to the website"
+        url = "/contributing/"

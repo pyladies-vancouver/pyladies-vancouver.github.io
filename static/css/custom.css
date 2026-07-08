@@ -1,0 +1,7 @@
+/* Site tweaks on top of the Popular theme's brand overrides.
+   [params.brand] in hugo.toml has no key for --gold-100 (card image
+   placeholder background), so remap that last champagne token to the
+   PyLadies soft pink here. html:root wins over the theme's :root tokens. */
+html:root {
+  --gold-100: #fde6f0;
+}
