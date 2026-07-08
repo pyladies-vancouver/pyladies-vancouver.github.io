@@ -32,10 +32,6 @@ buildFuture = true
   startLevel = 2
   endLevel = 3
 
-[services]
-  [services.googleAnalytics]
-    ID = "G-T85PPZ36GN"
-
 [privacy]
   [privacy.youtube]
     privacyEnhanced = true
