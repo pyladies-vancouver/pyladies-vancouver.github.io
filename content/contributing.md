@@ -70,9 +70,10 @@ image: img/my-banner.png
 - **authors** refers to author profiles in `content/authors/` by filename. First time
   writing? Add yourself: copy `content/authors/mariatta.md` and fill in your name, role,
   bio, and links. One-off guest writers can use `guestAuthors` in the post instead.
-- **image** is the banner. It displays at a **16:9** aspect ratio on the post header, the
-  homepage blog card, and social sharing previews, so export it at 16:9 (for example,
-  1600x900 pixels or larger) and keep text, logos, and faces centered.
+- **image** is the banner. It displays at a **16:9** aspect ratio on the post header and
+  the blog cards, so export it at 16:9 (for example, 1600x900 pixels or larger). It is
+  also the social sharing preview, which platforms crop to roughly 2:1, so keep text,
+  logos, and faces centered.
 - Images go in `static/img/` and are referenced as `img/filename.png`.
 
 ## Adding an event
@@ -104,6 +105,9 @@ Field notes:
 - **date** is the event start time, with the Vancouver UTC offset (`-07:00` in summer,
   `-08:00` in winter). It controls the upcoming/past split.
 - **rsvp** shows an RSVP button; use it for upcoming events only.
+- **image** is optional and does not appear on the events list or the event page; it is
+  only used as the social sharing preview when the event page is linked. 16:9 with
+  centered content works well.
 - **venueWanted = true** shows a "Venue wanted" badge while you're still looking.
 - **meetupUrl** records the original Meetup page for events from our Meetup era. Our 72
   past Meetup events (2015-2025) were imported this way. To link back to Meetup on the
@@ -115,6 +119,15 @@ Field notes:
 
 The events list intentionally shows no external links; each row links to the event's own
 page, and the linkback to Meetup lives there.
+
+## Organizer and author photos
+
+- **Organizer cards** (`content/organizers/`, the `photo` field) display as a **square
+  (1:1)**, so use a square photo, at least 600x600 pixels, with the face centered.
+- **Author photos** (`content/authors/`, shown on blog posts) and **persona shortcode
+  photos** render as small circles, so a square photo with the face centered works here
+  too; 300x300 pixels is plenty.
+- Like banners, photos go in `static/img/` and are referenced as `img/filename.jpg`.
 
 ## Shortcodes you can use
 
@@ -129,7 +142,8 @@ The theme ships shortcodes for use in any Markdown page:
   the [Runbooks](/runbooks/)).
 - `badge`: a small label like "Confirmed".
 
-See `themes/popular/README.md` for the full syntax of each.
+See the [theme's README](https://github.com/Mariatta/hugo-theme-popular#readme) for the
+full syntax of each.
 
 ## Site configuration
 
