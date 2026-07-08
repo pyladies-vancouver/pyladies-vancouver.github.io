@@ -36,7 +36,7 @@ title = "Home"
 
 [featuresHead]
   eyebrow = "What we do"
-  title = "A welcoming home for Python in Vancouver"
+  title = "A welcoming home for the Python community in Vancouver"
   lead = "No experience necessary. Whether you're speaking for the first time or a seasoned presenter, there's a seat for you."
 
 [[features]]
