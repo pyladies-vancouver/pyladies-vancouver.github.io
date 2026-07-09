@@ -1,7 +1,4 @@
 /public
-node_modules/
 /resources/_gen/
 .hugo_build.lock
-hinode.work.sum
-go.sum
-hugo_stats.json
+.idea/

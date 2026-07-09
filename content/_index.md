@@ -1,42 +1,67 @@
----
-author: Mariatta
-title: PyLadies Vancouver
-description: Helping more women become active participants and leaders in the Python and open source community.
-thumbnail:
-    url: /img/pyladiesvancouver-hero-img.png
-actions:
-  about:
-    url: "about"
-    title: "About us"
-    weight: 1
-  donate:
-    url: "https://psfmember.org/civicrm/contribute/transact/?reset=1&id=60"
-    title: "Donate"
-    weight: 4
-  events:
-    url: "https://luma.com/pyladiesvancouver"
-    title: "RSVP on Luma"
-    weight: 2
-  blog:
-    url: "blog"
-    title: "Blog"
-    weight: 3
----
++++
+title = "Home"
 
-<div class="text-center my-5">
-  <h2 id="upcoming-events">Upcoming Events</h2>
-  <p>Join us at our next meetup! Browse what's coming up and RSVP through our Luma calendar.</p>
-  <iframe
-    src="https://luma.com/embed/calendar/cal-EefnU0O5BifyHgg/events"
-    width="100%"
-    height="450"
-    frameborder="0"
-    style="border: 1px solid #bfcbda88; border-radius: 8px; max-width: 800px; display: block; margin: 0 auto;"
-    allowfullscreen=""
-    aria-hidden="false"
-    tabindex="0"
-  ></iframe>
-  <div class="mt-4">
-    <a class="btn btn-primary" href="/events/" role="button">See all events</a>
-  </div>
-</div>
+# ── Home composition ──────────────────────────────────────────────
+# The sections below drive the homepage. Beyond these, the page also
+# auto-populates: the next upcoming event, the latest 3 blog posts, and
+# our organizers, all pulled from the content, no config needed.
+
+[hero]
+  eyebrow = "Python · Community · Vancouver"
+  title = "Helping more women lead in Python & open source"
+  lead = "PyLadies Vancouver is a Python programming group for women in the Vancouver area. We welcome people who have never programmed before, experienced programmers, and everyone in between."
+  image = "img/pyladiesvancouver-hero-img.png"
+  [[hero.ctas]]
+    label = "RSVP on Luma"
+    url = "https://luma.com/pyladiesvancouver"
+    icon = "fa-solid fa-calendar"
+    variant = "primary"
+  [[hero.ctas]]
+    label = "About us"
+    url = "/about/"
+    variant = "outline"
+
+[[stats]]
+  value = "2015"
+  label = "founded in Vancouver"
+[[stats]]
+  value = "All"
+  label = "skill levels welcome"
+[[stats]]
+  value = "Free"
+  label = "to attend"
+[[stats]]
+  value = "@pastEventCount"
+  label = "events and counting"
+
+[featuresHead]
+  eyebrow = "What we do"
+  title = "A welcoming home for the Python community in Vancouver"
+  lead = "No experience necessary. Whether you're speaking for the first time or a seasoned presenter, there's a seat for you."
+
+[[features]]
+  icon = "fa-solid fa-chalkboard-user"
+  title = "Monthly meetups"
+  body = "Talks, lightning rounds and hands-on nights: a friendly room where every question is a good one."
+[[features]]
+  icon = "fa-solid fa-laptop-code"
+  title = "Hands-on workshops"
+  body = "Bring your laptop and build something real, from your first pandas DataFrame to shipping an app to the cloud."
+[[features]]
+  icon = "fa-solid fa-people-arrows"
+  title = "Mentorship & community"
+  body = "Part of the global PyLadies network. Meet people, find collaborators, and grow into leadership."
+
+[getInvolved]
+  eyebrow = "Community"
+  title = "There's a place for everyone at PyLadies Vancouver"
+  lead = "Our community runs on people who step up: to speak, to host, to sponsor, and simply to show up."
+  [[getInvolved.ctas]]
+    label = "Get involved"
+    url = "/get-involved/"
+    variant = "primary"
+  [[getInvolved.ctas]]
+    label = "Read the handbook"
+    url = "/handbook/"
+    variant = "outline"
++++
