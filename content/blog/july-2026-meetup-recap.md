@@ -57,6 +57,10 @@ A huge thank you to Improving Vancouver for hosting us and for providing the piz
 Community spaces like theirs are what make free, welcoming meetups possible, and we are
 grateful for their support of the local Python community.
 
+![Sophia Chu speaking to the room in front of a slide thanking Improving Vancouver for hosting and providing the pizza](img/july_2026_meetup_6.jpg)
+
+*Sophia Chu from Improving Vancouver.*
+
 ![The audience watching a talk in the Improving Vancouver space, seen from the back of the room](img/july_2026_meetup_3.jpg)
 
 *The Improving Vancouver space during Daniel's talk.*
