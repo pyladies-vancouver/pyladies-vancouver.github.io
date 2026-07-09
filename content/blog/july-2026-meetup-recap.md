@@ -32,8 +32,12 @@ alive, complete with a live demo.
 *Melanie Warrick walking us through durable execution for Python agents.*
 
 {{% persona name="Melanie Warrick" title="Temporal" photo="img/speaker_melanie_warrick.jpg" %}}
-Melanie came to us from Temporal and showed how durable execution keeps a Python
-agent's loop alive through crashes and long waits.
+Melanie Warrick is co-founding Fight Health Insurance, a production GenAI platform that
+helps people appeal insurance denials, and she is doing DevRel at Temporal with a focus
+on AI and durable execution. Melanie has been building in AI for over a decade, from
+neural networks built from scratch to fine-tuned domain-specific models to multi-agent
+orchestration in production. She prefers building, and hosts Vibe Check, a regular
+developer livestream on AI engineering patterns.
 {{% /persona %}}
 
 **Daniel Chen** (UBC Data Science) gave us a practical, hype-free introduction to
@@ -47,8 +51,10 @@ this was that talk.
 *Daniel Chen explaining how LLMs actually produce their responses.*
 
 {{% persona name="Daniel Chen" title="Data Science Lecturer, UBC" photo="img/speaker_daniel_chen.jpg" %}}
-Daniel teaches data science at UBC and gave us a practical look at how LLMs produce
-their responses and what that means for reliable Python and data science work.
+Daniel Chen is a Data Science Lecturer in the Statistics Department at the University of
+British Columbia, and also teaches Data Science for the UBC Master of Data Science
+program. He was previously a Data Science Educator and Developer Advocate at Posit, PBC
+(formerly RStudio, PBC).
 {{% /persona %}}
 
 Thank you, Melanie and Daniel, for sharing your expertise with our community.

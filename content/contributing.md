@@ -132,11 +132,13 @@ an import script,
 that converts a Sessionize event's public JSON into the theme's content model:
 
 ```
-python3 sessionize-import.py --url https://sessionize.com/api/v2/<embed-id>/view/All --site .
+python3 sessionize-import.py --url https://sessionize.com/api/v2/c44c13ew/view/All --site .
 ```
 
-- The **embed ID** comes from the Sessionize organizer dashboard under **API / Embeds**;
-  creating one there makes the endpoint public, and no authentication is needed.
+- That URL is our meetup's endpoint: `c44c13ew` is our **embed ID**. Embed IDs come from
+  the Sessionize organizer dashboard under **API / Embeds**; creating one there makes the
+  endpoint public, and no authentication is needed. Note this is different from our CFP
+  page (`sessionize.com/pyladies-vancouver-meetup`), which is only for submitting talks.
 - Because the theme is installed as a Hugo Module, the script is not in this repo's tree.
   It is on disk in Hugo's module cache
   (`~/Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/!mariatta/hugo-theme-popular@v<version>/scripts/`
