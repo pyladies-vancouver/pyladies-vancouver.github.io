@@ -31,7 +31,7 @@ alive, complete with a live demo.
 
 *Melanie Warrick walking us through durable execution for Python agents.*
 
-{{% persona name="Melanie Warrick" title="Temporal" %}}
+{{% persona name="Melanie Warrick" title="Temporal" photo="img/speaker_melanie_warrick.jpg" %}}
 Melanie came to us from Temporal and showed how durable execution keeps a Python
 agent's loop alive through crashes and long waits.
 {{% /persona %}}
@@ -46,7 +46,7 @@ this was that talk.
 
 *Daniel Chen explaining how LLMs actually produce their responses.*
 
-{{% persona name="Daniel Chen" title="Data Science Lecturer, UBC" %}}
+{{% persona name="Daniel Chen" title="Data Science Lecturer, UBC" photo="img/speaker_daniel_chen.jpg" %}}
 Daniel teaches data science at UBC and gave us a practical look at how LLMs produce
 their responses and what that means for reliable Python and data science work.
 {{% /persona %}}
@@ -57,9 +57,10 @@ Thank you, Melanie and Daniel, for sharing your expertise with our community.
 
 *Our speakers and organizers after the talks.*
 
-We recorded both sessions! The recordings are not up on YouTube just yet, but they are
-coming. We will share the links as soon as they are ready, so keep an eye on our
-channels.
+We recorded both sessions! The recordings are not up just yet, but they are coming to
+our newly created [YouTube channel](https://www.youtube.com/@PyLadiesVancouver).
+Subscribe so you do not miss them, and we will share the links on our other channels as
+soon as they are ready.
 
 ## Thank you, Improving Vancouver
 
@@ -115,7 +116,8 @@ Our first meetup of the year set the bar high, and we intend to keep it there. F
 on [Instagram](https://instagram.com/pyladiesyvr),
 [LinkedIn](https://www.linkedin.com/company/pyladies-vancouver), and
 [Mastodon](https://fosstodon.org/@pyladies_vancouver) so you do not miss the next
-announcement, and keep an eye out for those talk recordings.
+announcement, and subscribe to our
+[YouTube channel](https://www.youtube.com/@PyLadiesVancouver) for the talk recordings.
 
 Thank you again to our speakers, our hosts at Improving Vancouver, our donors, and every
 single person who came out. See you soon!
