@@ -75,6 +75,9 @@ image: img/my-banner.png
   also the social sharing preview, which platforms crop to roughly 2:1, so keep text,
   logos, and faces centered.
 - Images go in `static/img/` and are referenced as `img/filename.png`.
+- For announcement and recap posts, speaker names, bios, photos, and the schedule can be
+  fetched from Sessionize if the CFP ran there; see
+  [Fetching speakers and the schedule from Sessionize](#fetching-speakers-and-the-schedule-from-sessionize).
 
 ## Adding an event
 
@@ -119,6 +122,30 @@ Field notes:
 
 The events list intentionally shows no external links; each row links to the event's own
 page, and the linkback to Meetup lives there.
+
+### Fetching speakers and the schedule from Sessionize
+
+When a meetup's CFP ran through Sessionize, the speaker names, titles, bios, photos, and
+the session schedule can be fetched instead of typed up by hand. The Popular theme ships
+an import script,
+[`scripts/sessionize-import.py`](https://github.com/Mariatta/hugo-theme-popular/blob/main/scripts/sessionize-import.py),
+that converts a Sessionize event's public JSON into the theme's content model:
+
+```
+python3 sessionize-import.py --url https://sessionize.com/api/v2/<embed-id>/view/All --site .
+```
+
+- The **embed ID** comes from the Sessionize organizer dashboard under **API / Embeds**;
+  creating one there makes the endpoint public, and no authentication is needed.
+- Because the theme is installed as a Hugo Module, the script is not in this repo's tree.
+  It is on disk in Hugo's module cache
+  (`~/Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/!mariatta/hugo-theme-popular@v<version>/scripts/`
+  on macOS), or grab it from the theme repo link above. Plain Python, no installs needed.
+- It never overwrites existing files (pass `--force` to allow it), and `--dry-run` shows
+  what it would write.
+- Speaker photos come through as Sessionize-hosted URLs. For blog posts, download the
+  headshots into `static/img/` (as `img/speaker_<name>.jpg`) and reference the local
+  copies instead, so posts stay self-contained.
 
 ## Organizer and author photos
 

@@ -221,7 +221,9 @@ closing steps for each venue are in that event's private organizer document.
 
 Write up a recap as a [blog post](/blog/): a thank-you to the speaker and venue, photos
 from the event, and a note about what's coming next. This is also a good place to list
-other Python and open source events worth knowing about. See
+other Python and open source events worth knowing about. Speaker bios and photos can be
+fetched with the Sessionize import script if the CFP ran there (see the
+[contributing guide](/contributing/)). See
 [Updating the website](#updating-the-website) for how to add a post.
 
 ## Updating the website
