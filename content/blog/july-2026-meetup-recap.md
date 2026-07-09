@@ -12,7 +12,9 @@ house: RSVPs filled up, a waitlist formed, and 23 of you checked in on the night
 you, Vancouver. The room was warm, the questions were great, and the pizza disappeared at
 a very respectable pace.
 
-<!-- PHOTO: full room / crowd shot -->
+![A full room of attendees at the July meetup, seated around tables and listening to a talk, with the PyLadies Vancouver banner at the front](img/july_2026_meetup_1.jpg)
+
+*A full house for our July meetup at Improving Vancouver.*
 
 ## The talks
 
@@ -25,7 +27,9 @@ five days, holding all its state in memory the whole time. Then it crashes. Mela
 walked us through the agentic loop and showed how durable execution keeps that loop
 alive, complete with a live demo.
 
-<!-- PHOTO: Melanie speaking -->
+![Melanie Warrick presenting in front of a projected slide titled "Durable execution, in three primitives"](img/july_2026_meetup_2.jpg)
+
+*Melanie Warrick walking us through durable execution for Python agents.*
 
 **Daniel Chen** (UBC Data Science) gave us a practical, hype-free introduction to
 generative AI and LLMs: how these models actually produce their responses, why the same
@@ -33,9 +37,15 @@ prompt can give different answers, and what that means when you need reliability
 Python and data science work. If you have ever wanted someone to explain LLMs clearly,
 this was that talk.
 
-<!-- PHOTO: Daniel speaking -->
+![Daniel Chen gesturing while presenting next to the PyLadies Vancouver banner](img/july_2026_meetup_4.jpg)
+
+*Daniel Chen explaining how LLMs actually produce their responses.*
 
 Thank you, Melanie and Daniel, for sharing your expertise with our community.
+
+![Five people smiling in front of the PyLadies Vancouver banner, including speakers Melanie Warrick and Daniel Chen](img/july_2026_meetup_5.jpg)
+
+*Our speakers and organizers after the talks.*
 
 We recorded both sessions! The recordings are not up on YouTube just yet, but they are
 coming. We will share the links as soon as they are ready, so keep an eye on our
@@ -47,7 +57,9 @@ A huge thank you to Improving Vancouver for hosting us and for providing the piz
 Community spaces like theirs are what make free, welcoming meetups possible, and we are
 grateful for their support of the local Python community.
 
-<!-- PHOTO: venue / pizza / mingling -->
+![The audience watching a talk in the Improving Vancouver space, seen from the back of the room](img/july_2026_meetup_3.jpg)
+
+*The Improving Vancouver space during Daniel's talk.*
 
 ## We raised $165 for our community
 
