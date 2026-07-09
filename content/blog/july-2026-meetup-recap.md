@@ -16,7 +16,7 @@ a very respectable pace.
 
 ## The talks
 
-We had two fantastic talks, and they paired beautifully.
+We had two fantastic talks, and they worked well together.
 
 **Melanie Warrick** (Temporal) tackled a problem every agent builder eventually hits:
 what happens when your Python agent has to wait for a human? Your agent reasons, calls
