@@ -4,7 +4,7 @@ title: "That's a Wrap: Our July Meetup"
 date: 2026-07-09
 description: "Recap of our July meetup: a full house, two fantastic talks on AI agents and LLMs, $165 raised for our community, and autographed Python books finding new homes."
 tags: ["python", "pyladies", "vancouver", "meetup", "events", "ai"]
-image: img/julyblogbanner.png
+image: img/july_2026_recap_cover.jpg
 ---
 
 Our first meetup of the year is in the books, and what a way to start. We had a full
