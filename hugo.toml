@@ -77,7 +77,6 @@ buildFuture = true
   logo = "img/pyladiesvancouver-logo.png"
   favicon = "img/pyladiesvancouver-square-logo.png"
   ogImage = "img/pyladiesvancouver-hero-img.png"
-  customCSS = ["css/custom.css"]
   landAcknowledgement = "PyLadies Vancouver resides and shares knowledge on the unceded territories of the xʷməθkwəy̓əm (Musqueam), Skwxwú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔɬ (Tsleil-Waututh) Nations. We encourage participation from members of Indigenous communities across Canada."
 
   # ---- Brand tokens (defaults already match the PyLadies palette) ----
