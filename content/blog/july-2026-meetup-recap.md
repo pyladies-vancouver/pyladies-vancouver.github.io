@@ -31,6 +31,11 @@ alive, complete with a live demo.
 
 *Melanie Warrick walking us through durable execution for Python agents.*
 
+{{% persona name="Melanie Warrick" title="Temporal" %}}
+Melanie came to us from Temporal and showed how durable execution keeps a Python
+agent's loop alive through crashes and long waits.
+{{% /persona %}}
+
 **Daniel Chen** (UBC Data Science) gave us a practical, hype-free introduction to
 generative AI and LLMs: how these models actually produce their responses, why the same
 prompt can give different answers, and what that means when you need reliability in real
@@ -40,6 +45,11 @@ this was that talk.
 ![Daniel Chen gesturing while presenting next to the PyLadies Vancouver banner](img/july_2026_meetup_4.jpg)
 
 *Daniel Chen explaining how LLMs actually produce their responses.*
+
+{{% persona name="Daniel Chen" title="Data Science Lecturer, UBC" %}}
+Daniel teaches data science at UBC and gave us a practical look at how LLMs produce
+their responses and what that means for reliable Python and data science work.
+{{% /persona %}}
 
 Thank you, Melanie and Daniel, for sharing your expertise with our community.
 
@@ -65,6 +75,13 @@ grateful for their support of the local Python community.
 
 *The Improving Vancouver space during Daniel's talk.*
 
+{{% callout title="About Improving Vancouver" %}}
+[Improving Vancouver](https://improving.com/locations/vancouver/) is an IT consulting
+and software development firm specializing in application development, data
+engineering, and AI solutions. They hosted our July meetup and provided the pizza,
+and we are grateful for their support of the local Python community.
+{{% /callout %}}
+
 ## We raised $165 for our community
 
 This was our first meetup since PyLadies Vancouver became able to accept donations, and
@@ -79,9 +96,9 @@ books generously donated by Naomi Ceder and Eric Matthes. Thank you, Naomi and E
 Naomi's book found its new home on the night. Eric's book is still with us, which means a
 lucky donor at an upcoming meetup has an autographed copy waiting for them.
 
-One small note for our donors: we are aware that the donation receipts did not go out
-with the correct email address yet. Your donations were received and are safe; we are
-working with the PSF to get the receipt issue sorted, and we appreciate your patience.
+One small note for our donors: the donation receipts initially went out with an
+incorrect email address. This has since been resolved with the PSF, and we have
+contacted the affected donors. Thank you for your patience.
 
 ## Tell us how it went
 
