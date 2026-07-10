@@ -75,6 +75,9 @@ image: img/my-banner.png
   also the social sharing preview, which platforms crop to roughly 2:1, so keep text,
   logos, and faces centered.
 - Images go in `static/img/` and are referenced as `img/filename.png`.
+- For announcement and recap posts, speaker names, bios, photos, and the schedule can be
+  fetched from Sessionize if the CFP ran there; see
+  [Fetching speakers and the schedule from Sessionize](#fetching-speakers-and-the-schedule-from-sessionize).
 
 ## Adding an event
 
@@ -105,6 +108,11 @@ Field notes:
 - **date** is the event start time, with the Vancouver UTC offset (`-07:00` in summer,
   `-08:00` in winter). It controls the upcoming/past split.
 - **rsvp** shows an RSVP button; use it for upcoming events only.
+- **speakers** is a list of speaker profile pages in `content/speakers/`, referenced by
+  filename (for example `speakers = ["daniel-chen"]`), and renders their profile cards on
+  the event page. The Sessionize importer creates these profiles. A plain
+  `speaker = "Name"` string also works for names without a profile page, which is how the
+  pre-2025 Meetup-era events are written.
 - **image** is optional and does not appear on the events list or the event page; it is
   only used as the social sharing preview when the event page is linked. 16:9 with
   centered content works well.
@@ -119,6 +127,34 @@ Field notes:
 
 The events list intentionally shows no external links; each row links to the event's own
 page, and the linkback to Meetup lives there.
+
+### Fetching speakers and the schedule from Sessionize
+
+When a meetup's CFP ran through Sessionize, the speaker names, titles, bios, photos, and
+the session schedule can be fetched instead of typed up by hand. The Popular theme ships
+an import script,
+[`scripts/sessionize-import.py`](https://github.com/Mariatta/hugo-theme-popular/blob/main/scripts/sessionize-import.py),
+that converts a Sessionize event's public JSON into the theme's content model:
+
+```
+python3 sessionize-import.py --site .
+```
+
+- Our **embed ID** (`c44c13ew`) is stored in `popular-import.toml` at the repo root, so
+  the command above needs no flags; it resolves to
+  `https://sessionize.com/api/v2/c44c13ew/view/All`. Embed IDs come from the Sessionize
+  organizer dashboard under **API / Embeds**; creating one there makes the endpoint
+  public, and no authentication is needed. Note this is different from our CFP page
+  (`sessionize.com/pyladies-vancouver-meetup`), which is only for submitting talks.
+- Because the theme is installed as a Hugo Module, the script is not in this repo's tree.
+  It is on disk in Hugo's module cache
+  (`~/Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/!mariatta/hugo-theme-popular@v<version>/scripts/`
+  on macOS), or grab it from the theme repo link above. Plain Python, no installs needed.
+- It never overwrites existing files (pass `--force` to allow it), and `--dry-run` shows
+  what it would write.
+- Speaker photos come through as Sessionize-hosted URLs. For blog posts, download the
+  headshots into `static/img/` (as `img/speaker_<name>.jpg`) and reference the local
+  copies instead, so posts stay self-contained.
 
 ## Organizer and author photos
 

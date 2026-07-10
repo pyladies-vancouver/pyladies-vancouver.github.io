@@ -6,7 +6,7 @@ image = "img/julyblogbanner.png"
 tags = ["meetup", "talks", "ai"]
 
 venue = "Improving Vancouver"
-speaker = "Melanie Warrick & Daniel Chen"
+speakers = ["melanie-warrick", "daniel-chen"]
 rsvp = "https://luma.com/pyladiesvancouver"
 +++
 

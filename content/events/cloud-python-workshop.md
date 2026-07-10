@@ -8,7 +8,7 @@ tags = ["meetup", "workshop"]
 venue = "Z-Space Arts + Technology Society"
 address = "505 Hamilton St, Suite 301, Vancouver"
 time = "6:00 PM"
-speaker = "Linda Lee"
+speakers = ["linda-lee"]
 meetupUrl = "https://www.meetup.com/pyladies-vancouver/events/308565320/"
 +++
 
