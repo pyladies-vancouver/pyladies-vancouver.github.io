@@ -1,0 +1,4 @@
+# Stored endpoint for the Popular theme's Sessionize importer, so it can run
+# with just `--site .` (see the Sessionize section in /contributing/).
+[sessionize]
+id = "c44c13ew"
