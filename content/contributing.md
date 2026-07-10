@@ -108,6 +108,11 @@ Field notes:
 - **date** is the event start time, with the Vancouver UTC offset (`-07:00` in summer,
   `-08:00` in winter). It controls the upcoming/past split.
 - **rsvp** shows an RSVP button; use it for upcoming events only.
+- **speakers** is a list of speaker profile pages in `content/speakers/`, referenced by
+  filename (for example `speakers = ["daniel-chen"]`), and renders their profile cards on
+  the event page. The Sessionize importer creates these profiles. A plain
+  `speaker = "Name"` string also works for names without a profile page, which is how the
+  pre-2025 Meetup-era events are written.
 - **image** is optional and does not appear on the events list or the event page; it is
   only used as the social sharing preview when the event page is linked. 16:9 with
   centered content works well.
