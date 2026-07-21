@@ -153,7 +153,7 @@ buildFuture = true
     tagline = "Promote · Educate · Advance a diverse Python community"
     [params.footer.credit]
       label = "Popular Hugo theme by Mariatta"
-      url   = "https://mariatta.ca"
+      url   = "https://mariatta.ca/hugo-theme-popular/"
     [[params.footer.columns]]
       title = "Community"
       [[params.footer.columns.links]]
