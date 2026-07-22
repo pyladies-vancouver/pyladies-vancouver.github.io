@@ -27,7 +27,7 @@ welcome.
 
 ## Talk formats
 
-- **Lightning talk**: 5 minutes
+- **[Lightning talk](/lightning-talks/)**: 5 minutes, our friendliest first-talk format
 - **Standard talk**: 15–30 minutes
 - **Workshop**: up to 2 hours, hands-on
 
@@ -46,9 +46,15 @@ through first, reach out in the **#city-vancouver** channel on the
 - **Aim your talk at a friendly, mixed-experience audience**: assume curiosity, not
   expertise.
 - **Practice your timing** so you fit your slot, leaving room for questions.
-- **Bring your slides on your own laptop** if you can; let us know your adapter needs in
-  advance.
 - **Share your slides** with us afterward: we like to link them from the event recap.
+
+## On the night
+
+- We'll share the running order and introduce you before you go on.
+- We'll keep an eye on time and give you a gentle heads-up as your slot runs out.
+- Bring your slides on your own laptop if you can, and let us know your adapter needs in
+  advance.
+- The audience is warm and on your side. Questions, if any, are friendly.
 
 ## What we provide
 
@@ -65,5 +71,6 @@ through first, reach out in the **#city-vancouver** channel on the
 
 ## More ways to participate
 
-This guide is part of the [Handbook](/handbook/). You can also
-[host a venue](/host/), [donate or sponsor](/donate/), or [help organize](/organize/).
+New to speaking? A [lightning talk](/lightning-talks/) is the easiest way to start: five
+to fifteen minutes on a single idea. You can also [host a venue](/host/),
+[donate or sponsor](/donate/), or [help organize](/organize/).

@@ -24,5 +24,5 @@ Interested in sponsoring? Email **vancouver at pyladies dot com** or reach out i
 
 ## More ways to participate
 
-This guide is part of the [Handbook](/handbook/). You can also
+Donating isn't the only way to support us. You can also
 [speak at a meetup](/speak/), [host a venue](/host/), or [help organize](/organize/).

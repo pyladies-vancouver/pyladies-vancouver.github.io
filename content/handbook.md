@@ -25,6 +25,8 @@ Each guide is its own page:
 
 - **[Speak at our meetup](/speak/)**: who should speak, talk formats, how to submit, and
   how to prepare
+- **[Lightning talks](/lightning-talks/)**: what a five-minute talk is, how to prepare
+  one, and ideas to get you started, our friendliest first-talk format
 - **[Host a venue](/host/)**: what we need from a space, what's optional, and how to
   offer one
 - **[Donate and sponsor](/donate/)**: supporting PyLadies Vancouver directly or

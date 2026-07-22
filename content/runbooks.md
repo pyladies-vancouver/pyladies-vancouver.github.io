@@ -93,6 +93,22 @@ Collect a headshot for the event page and promotion.
 Keep vancouver@pyladies.com CC'd on speaker communications.
 {{% /checklist %}}
 
+## Prepare the event assets
+
+Gather the images and graphics an event needs. Banners are **16:9, 1600×900px or larger**,
+with text and logos centered (social platforms crop to roughly 2:1). All images live in
+`static/img/` and are referenced as `img/…`; see [Contributing](/contributing/) for the
+full size guide.
+
+{{% checklist key="rb-assets" %}}
+Event banner (16:9, 1600×900+): the social-share preview for the `content/events/` page.
+Announcement blog banner (16:9, 1600×900+), if different from the event banner.
+Speaker headshots from Sessionize; for blog posts, save them to `static/img/` as `img/speaker_<name>.jpg`.
+Luma cover image: a speaker headshot, or the event banner.
+Social graphics for LinkedIn, Instagram (1:1), Mastodon, and Bluesky.
+Recap banner and event photos (after the event) for the recap post.
+{{% /checklist %}}
+
 ## Create the Luma event
 
 We publish each event on **Luma**, which handles RSVPs, reminders, and a subscribable
