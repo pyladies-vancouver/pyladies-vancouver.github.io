@@ -12,6 +12,14 @@ talks on **Wednesday, August 19, 2026** at [VISST](https://www.visst.ca/), and w
 looking for speakers. This is an open invitation. If you have never spoken before, it is
 especially for you. We would love to help you give your first talk.
 
+## Who should give a talk
+
+If you are reading this, you can give a talk. We are an inclusive community, and we welcome
+speakers of every background and experience level: first-timers and seasoned presenters,
+students and career-changers, and everyone in between. You do not need to be an expert or
+hold a particular job title. If you have learned something and can walk others through it,
+we want to hear from you.
+
 ## What is a lightning talk
 
 A lightning talk is a short talk. At a conference it is usually a strict five minutes.
