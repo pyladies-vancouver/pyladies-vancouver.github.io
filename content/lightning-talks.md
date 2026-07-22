@@ -109,15 +109,17 @@ Watch for how the strongest ones make a single point and get off the stage.
 
 ## Resources for preparing
 
+- **[Lightning Talks: Why You Should Give One](https://whykay.itch.io/lightning-talks-why-you-should-give-one)**,
+  a zine by Vicky Twomey-Lee of PyLadies Dublin, adapted from the Boston Python post below.
+- **[Boston Python: lightning talks](https://about.bostonpython.com/lightning)**, the post
+  the zine is based on: encouragement for first-time speakers, "you know more than you
+  think you do."
 - **[Write the Docs: giving a lightning talk](https://www.writethedocs.org/conf/berlin/2025/lightning-talks/)**,
   a friendly conference's guidance for first-time lightning talkers.
 - **[OSC Canada: lightning talk guide](https://oscanada.github.io/en/guide/lightning-talk)**,
   a practical open-source-community walkthrough.
 - **[PyCon US lightning talk guidelines](https://us.pycon.org/2026/events/lightning-talks/)**,
   to see exactly what a strict five-minute conference slot expects.
-- **[Boston Python: lightning talks](https://about.bostonpython.com/lightning)**, a fellow
-  Python community's encouragement for first-time speakers: "you know more than you think
-  you do."
 
 ## How to sign up
 
