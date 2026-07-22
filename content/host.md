@@ -44,5 +44,5 @@ You can also reach us in the **#city-vancouver** channel on the
 
 ## More ways to participate
 
-This guide is part of the [Handbook](/handbook/). You can also
+Offering a space is one of many ways to support us. You can also
 [speak at a meetup](/speak/), [donate or sponsor](/donate/), or [help organize](/organize/).

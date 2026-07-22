@@ -37,5 +37,5 @@ a single person's inbox.
 
 ## More ways to participate
 
-This guide is part of the [Handbook](/handbook/). You can also
+Helping organize is one of many ways to get involved. You can also
 [speak at a meetup](/speak/), [host a venue](/host/), or [donate or sponsor](/donate/).
