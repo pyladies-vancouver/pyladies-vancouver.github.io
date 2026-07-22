@@ -127,9 +127,14 @@ We collect talks through **Sessionize**. Sign up to give a lightning talk here:
 
 {{< button url="https://sessionize.com/pyladies-vancouver-meetup/" label="Sign up to give a lightning talk" icon="fa-solid fa-microphone-lines" >}}
 
-You don't need a polished abstract to start: a title and a sentence or two is plenty. If
-you'd rather talk it through first, reach out in the **#city-vancouver** channel on the
+You don't need a polished abstract to start: a title and a sentence or two is plenty. You
+can update your title, bio, and details in Sessionize any time, so there's no need to get
+it perfect right away, and we'll reach out if we have any questions. If you'd rather talk
+it through first, reach out in the **#city-vancouver** channel on the
 [PyLadies Slack](https://slackin.pyladies.com) or email **vancouver at pyladies dot com**.
+
+Know someone who would be a great fit? Point them to this page, or introduce us by emailing
+**vancouver at pyladies dot com**.
 
 ## Common questions
 
