@@ -138,31 +138,34 @@ Know someone who would be a great fit? Point them to this page, or introduce us 
 
 ## Common questions
 
-**I've never done public speaking before.**
+{{< faq >}}
+{{< question q="I've never done public speaking before." >}}
 Then we'd love to debut you. A lightning talk is a gentle first stage, and we'll help you
 prepare and launch your public speaking journey.
-
-**I don't know if my topic is interesting enough.**
+{{< /question >}}
+{{< question q="I don't know if my topic is interesting enough." >}}
 Let us be the judge. Sign up with your idea: if you found it useful, chances are someone
 else will too.
-
-**Someone already gave a talk on this topic. Should I still do mine?**
+{{< /question >}}
+{{< question q="Someone already gave a talk on this topic. Should I still do mine?" >}}
 It doesn't matter to us that a topic has come up before. We want to hear from you, so make
 your own version of it: your words, your angle, your experience.
-
-**Can I give a talk I've already presented somewhere else?**
+{{< /question >}}
+{{< question q="Can I give a talk I've already presented somewhere else?" >}}
 Yes, you can. We always have new members who may not have heard it before, so a talk from
 another meetup, conference, class, or work is very welcome here. It does not need to be
 brand new.
-
-**My talk was rejected at another conference or meetup.**
+{{< /question >}}
+{{< question q="My talk was rejected at another conference or meetup." >}}
 Then bring it here and you'll still get your audience. A rejection usually says more about
 a packed schedule than about your idea, and we'd like to hear it.
-
-**Will there be Q&A after my talk?**
+{{< /question >}}
+{{< question q="Will there be Q&A after my talk?" >}}
 Most lightning talks at conferences skip questions, but we leave it up to you. If you're
 happy to take questions, we'll set aside time for them; if not, we'll skip it. You'll let
 us know which you prefer when you sign up in Sessionize.
+{{< /question >}}
+{{< /faq >}}
 
 ## More ways to participate
 
