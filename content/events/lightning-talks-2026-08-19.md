@@ -9,9 +9,7 @@ tags = ["meetup", "talks", "lightning talks"]
 venue = "VISST"
 address = "1490 West Broadway, Vancouver"
 time = "6:00 PM"
-# No RSVP yet: we're collecting speaker sign-ups first (the Sessionize button
-# in the body). When RSVPs open, add the Luma link here to show an RSVP button:
-# rsvp = "https://luma.com/..."
+rsvp = "https://luma.com/3gsm7kqq"
 +++
 
 PyLadies Vancouver and **R-Ladies Vancouver** are teaming up for a night of **lightning
