@@ -155,6 +155,10 @@ Yes, you can. We always have new members who may not have heard it before, so a 
 another meetup, conference, class, or work is very welcome here. It does not need to be
 brand new.
 
+**My talk was rejected at another conference or meetup.**
+Then bring it here and you'll still get your audience. A rejection usually says more about
+a packed schedule than about your idea, and we'd like to hear it.
+
 **Will there be Q&A after my talk?**
 Most lightning talks at conferences skip questions, but we leave it up to you. If you're
 happy to take questions, we'll set aside time for them; if not, we'll skip it. You'll let

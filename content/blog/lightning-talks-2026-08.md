@@ -46,6 +46,8 @@ We hear the same questions a lot. Here is what we tell people:
   before. We want to hear your version of it: your words, your angle, your experience.
 - **"I have given this talk somewhere else."** Bring it. We always have new members who
   have not heard it, so a talk from another meetup, conference, or class is welcome here.
+- **"My talk was rejected somewhere else."** Then bring it here and you will still get your
+  audience. A rejection usually says more about a packed schedule than about your idea.
 
 ## What we will help with
 
