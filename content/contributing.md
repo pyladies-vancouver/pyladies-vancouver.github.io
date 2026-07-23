@@ -93,8 +93,7 @@ description = "One or two sentences shown on the event row."
 image = "img/august-banner.png"
 tags = ["meetup", "talks"]
 
-venue = "Venue name"
-address = "123 Street, Vancouver"
+venueRef = "visst"       # or the flat venue/address pair below
 time = "6:00 PM"
 speaker = "Speaker Name"
 rsvp = "https://luma.com/pyladiesvancouver"
@@ -108,6 +107,19 @@ Field notes:
 - **date** is the event start time, with the Vancouver UTC offset (`-07:00` in summer,
   `-08:00` in winter). It controls the upcoming/past split.
 - **rsvp** shows an RSVP button; use it for upcoming events only.
+- **venueRef** points at a venue page in `content/venues/` by filename (for example
+  `venueRef = "visst"`). It links the venue, reuses its address and arrival notes, and
+  feeds the event's location into the page's structured data (JSON-LD). Prefer it for
+  places we return to. For a one-off spot, use the flat `venue = "Name"` and
+  `address = "..."` pair instead. Override a venue's default arrival notes for one event
+  with **venueNotes**, and add a check-in reminder with **checkin**.
+- **cancelled = true** shows a "Cancelled" badge on the event and marks it cancelled in
+  the structured data. Keep the page up so links still resolve.
+- **online = true** marks the event as virtual in the structured data; the `rsvp` link is
+  used as the location. Leave it off for in-person events.
+- **price** and **currency** set a paid-event Offer in the structured data (for example
+  `price = 10`). Events with no price are advertised as free. The site-wide default
+  currency is set in `hugo.toml` under `[params.seo]`.
 - **speakers** is a list of speaker profile pages in `content/speakers/`, referenced by
   filename (for example `speakers = ["daniel-chen"]`), and renders their profile cards on
   the event page. The Sessionize importer creates these profiles. A plain

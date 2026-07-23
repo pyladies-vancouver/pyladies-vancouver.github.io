@@ -6,8 +6,7 @@ description = "A joint lightning talks night with R-Ladies Vancouver: short, pun
 image = "img/lightning-talks-2026-08-banner.png"
 tags = ["meetup", "talks", "lightning talks"]
 
-venue = "VISST"
-address = "1490 West Broadway, Vancouver"
+venueRef = "visst"
 time = "6:00 PM"
 rsvp = "https://luma.com/3gsm7kqq"
 +++
