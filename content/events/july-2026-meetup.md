@@ -5,7 +5,7 @@ description = "Two talks on AI agents and large language models: Melanie Warrick
 image = "img/julyblogbanner.png"
 tags = ["meetup", "talks", "ai"]
 
-venue = "Improving Vancouver"
+venueRef = "improving-vancouver"
 speakers = ["melanie-warrick", "daniel-chen"]
 rsvp = "https://luma.com/pyladiesvancouver"
 +++
