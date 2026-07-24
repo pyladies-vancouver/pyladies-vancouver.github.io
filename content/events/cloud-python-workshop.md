@@ -5,8 +5,7 @@ description = "A hands-on workshop with Linda Lee: deploying a Python applicatio
 image = "img/cloud_python_workshop_banner.jpg"
 tags = ["meetup", "workshop"]
 
-venue = "Z-Space Arts + Technology Society"
-address = "505 Hamilton St, Suite 301, Vancouver"
+venueRef = "z-space"
 time = "6:00 PM"
 speakers = ["linda-lee"]
 meetupUrl = "https://www.meetup.com/pyladies-vancouver/events/308565320/"
