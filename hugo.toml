@@ -58,6 +58,10 @@ buildFuture = true
   url = "/events/"
   weight = 20
 [[menu.main]]
+  name = "Speakers"
+  url = "/speakers/"
+  weight = 25
+[[menu.main]]
   name = "Blog"
   url = "/blog/"
   weight = 30
