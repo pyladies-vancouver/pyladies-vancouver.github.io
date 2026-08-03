@@ -2,7 +2,7 @@
 title = "Events"
 outputs = ["HTML", "RSS", "Calendar"]
 eyebrow = "Events"
-lead = "We meet monthly across Vancouver: talks, panels and hands-on workshops. All events are free, and newcomers are always welcome."
+lead = "Talks, panels and hands-on workshops across Vancouver. All events are free, and newcomers are always welcome."
 +++
 
 ## RSVP through Luma

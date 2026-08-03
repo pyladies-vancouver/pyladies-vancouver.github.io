@@ -41,7 +41,7 @@ title = "Home"
 
 [[features]]
   icon = "fa-solid fa-chalkboard-user"
-  title = "Monthly meetups"
+  title = "Meetups"
   body = "Talks, lightning rounds and hands-on nights: a friendly room where every question is a good one."
 [[features]]
   icon = "fa-solid fa-laptop-code"
