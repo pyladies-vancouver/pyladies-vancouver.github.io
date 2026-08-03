@@ -26,6 +26,27 @@ buildFuture = true
 [pagination]
   pagerSize = 9
 
+# ------------------------------------------------------------------
+# OUTPUT FORMATS
+# ------------------------------------------------------------------
+# LLMS is defined by the theme; adding it here generates /llms.txt, a
+# plain-text summary of the next meetup and the key pages, for AI agents.
+[outputs]
+  home = ["HTML", "RSS", "LLMS"]
+
+# An iCalendar feed of our events at /events/calendar.ics. The events
+# section opts in via `outputs` in content/events/_index.md. Our Luma
+# calendar stays the subscribe link we point people at; this feed is for
+# anyone who would rather subscribe to the site directly.
+[mediaTypes."text/calendar"]
+  suffixes = ["ics"]
+
+[outputFormats.Calendar]
+  mediaType = "text/calendar"
+  baseName = "calendar"
+  isPlainText = true
+  noUgly = true
+
 [markup.goldmark.renderer]
   unsafe = true            # allow inline HTML in Markdown (Luma calendar embed, photo grids)
 [markup.tableOfContents]
@@ -88,6 +109,12 @@ buildFuture = true
   # currency). Defaults to USD in the theme; we're in Vancouver.
   [params.seo]
     currency = "CAD"
+
+  # ---- Speakers ----
+  # Appends a "Your name here?" card to the end of the speakers list,
+  # linking to /speak/.
+  [params.speakers]
+    invite = true
 
   # ---- Brand tokens (defaults already match the PyLadies palette) ----
   [params.brand]

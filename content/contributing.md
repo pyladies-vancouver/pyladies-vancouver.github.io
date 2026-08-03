@@ -8,15 +8,16 @@ lead = "How to add blog posts, events, and pages to vancouver.pyladies.com. Anyo
 
 ## How the site works
 
-The site is a [Hugo](https://gohugo.io/) project using the **Popular** theme (bundled in
-`themes/popular`), in
+The site is a [Hugo](https://gohugo.io/) project using the **Popular** theme, in
 [our GitHub repo](https://github.com/pyladies-vancouver/pyladies-vancouver.github.io).
 Changes go through a pull request and deploy automatically via Netlify once merged. Every
 pull request gets a Netlify deploy preview, so you (and reviewers) can see the rendered
 result before merging.
 
-The theme uses plain CSS: no SCSS, npm, or Hugo modules. A standard Hugo install
-(v0.126.0 or newer) is all you need.
+The theme is a [Hugo Module](https://gohugo.io/hugo-modules/) pinned in `go.mod`, so
+there is no `themes/` directory in the repo: Hugo downloads the theme for you on the
+first build. You need both Hugo (v0.126.0 or newer) and [Go](https://go.dev/dl/)
+installed. The theme's styling is plain CSS, so there is no SCSS or npm step.
 
 ## Getting set up
 
@@ -75,6 +76,9 @@ image: img/my-banner.png
   also the social sharing preview, which platforms crop to roughly 2:1, so keep text,
   logos, and faces centered.
 - Images go in `static/img/` and are referenced as `img/filename.png`.
+- **Recap posts** have their own toolkit: the `photo` and `gallery` shortcodes for the
+  photos from the night, and `pullquote` for lifting a line out of the post. See
+  [Shortcodes you can use](#shortcodes-you-can-use), and note that `photo` crops to 4:3.
 - For announcement and recap posts, speaker names, bios, photos, and the schedule can be
   fetched from Sessionize if the CFP ran there; see
   [Fetching speakers and the schedule from Sessionize](#fetching-speakers-and-the-schedule-from-sessionize).
@@ -125,6 +129,23 @@ Field notes:
   the event page. The Sessionize importer creates these profiles. A plain
   `speaker = "Name"` string also works for names without a profile page, which is how the
   pre-2025 Meetup-era events are written.
+- **talks** lists the night's talks. It renders a Talks section on the event page and
+  feeds the [talk archive](/talks/). Each entry needs a `title`; `speaker`, `recording`,
+  and `slides` are optional:
+
+```toml
+[[talks]]
+  title = "What Happens When Your Agent Has to Wait for a Human"
+  speaker = "melanie-warrick"
+  recording = "https://www.youtube.com/watch?v=..."
+```
+
+  Unlike the event-level `speaker` field above, `talks[].speaker` only accepts a
+  `content/speakers/` filename: a plain name logs a build warning and renders no byline,
+  so leave it out when the speaker has no profile page. For a single-talk meetup you can
+  skip `talks` entirely and put `recording` and `slides` at the top level instead. Either
+  way, a past event with a recording shows a "Recording available" cue on the events
+  list. The `/talks/` archive itself is switched on by `content/talks/_index.md`.
 - **image** is optional and does not appear on the events list or the event page; it is
   only used as the social sharing preview when the event page is linked. 16:9 with
   centered content works well.
@@ -168,6 +189,37 @@ python3 sessionize-import.py --site .
   headshots into `static/img/` (as `img/speaker_<name>.jpg`) and reference the local
   copies instead, so posts stay self-contained.
 
+## Venue pages
+
+Places we return to get a page in `content/venues/`, which events point at with
+`venueRef`. Alongside `title`, `description`, `address`, and `website`, a venue page
+carries the access details shown in its "Getting there & access" section:
+
+```toml
++++
+title = "VISST"
+description = "A non-profit, STEM-focused high school on West Broadway."
+address = "1490 West Broadway, Vancouver"
+website = "https://www.visst.ca/"
+
+wheelchair = true
+transit = "A short walk from the Broadway-City Hall SkyTrain station, plus several bus routes."
+parking = "Metered street parking on West Broadway."
+access = "Enter through the main doors on Broadway. The elevator is to the left."
++++
+```
+
+- **wheelchair = true** shows a "Wheelchair accessible" badge on the venue page and on
+  every event held there.
+- **transit** and **parking** are one-liners. **access** is a freeform Markdown note for
+  anything else worth knowing: which door, the elevator, washrooms, a quiet space.
+- **notes** are arrival instructions inherited by every event at that venue; a single
+  event can override them with `venueNotes`.
+
+Most of our venue pages have these fields commented out, waiting on confirmation. Please
+don't guess at accessibility: ask the venue, then fill it in. Getting this wrong sends
+someone to a building they can't get into.
+
 ## Organizer and author photos
 
 - **Organizer cards** (`content/organizers/`, the `photo` field) display as a **square
@@ -189,6 +241,16 @@ The theme ships shortcodes for use in any Markdown page:
 - `checklist`: a tick-box list that remembers progress in the visitor's browser (used in
   the [Runbooks](/runbooks/)).
 - `badge`: a small label like "Confirmed".
+- `photo`: a captioned figure, for recap posts. `src` and `alt` are both required, and a
+  missing `alt` fails the build on purpose. Photos render at a **4:3** aspect ratio and
+  are centre-cropped to fit, so export at 4:3, or keep faces and slides away from the
+  left and right edges.
+- `gallery`: wraps a run of `photo` shortcodes into a grid. There is no lightbox and no
+  JavaScript; each photo links to its full-size image.
+- `pullquote`: pulls a quote out of the surrounding text, with an optional `cite`. Use
+  the `{{%/* pullquote */%}}` form so the quote renders as Markdown.
+- `faq` and `question`: a frequently-asked-questions block. `faq` wraps a series of
+  `question` shortcodes and also emits FAQ structured data for search engines.
 
 See the [theme's README](https://github.com/Mariatta/hugo-theme-popular#readme) for the
 full syntax of each.
@@ -197,6 +259,12 @@ full syntax of each.
 
 Menus, brand colours, the footer, and social links all live in `hugo.toml` under
 `[params]`. Most content contributions never need to touch it.
+
+`hugo.toml` also declares the site's extra outputs: `/llms.txt`, a plain-text summary of
+the next meetup and our key pages for AI agents, and an iCalendar feed at
+`/events/calendar.ics` that the events section opts into with `outputs` in
+`content/events/_index.md`. Our [Luma calendar](https://luma.com/pyladiesvancouver)
+remains the subscribe link we point people at.
 
 ## Questions and ideas
 

@@ -1,5 +1,6 @@
 +++
 title = "Events"
+outputs = ["HTML", "RSS", "Calendar"]
 eyebrow = "Events"
 lead = "We meet monthly across Vancouver: talks, panels and hands-on workshops. All events are free, and newcomers are always welcome."
 +++
