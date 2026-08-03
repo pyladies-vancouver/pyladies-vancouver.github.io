@@ -8,6 +8,16 @@ tags = ["meetup", "talks", "ai"]
 venueRef = "improving-vancouver"
 speakers = ["melanie-warrick", "daniel-chen"]
 rsvp = "https://luma.com/pyladiesvancouver"
+
+# Both talks were recorded. Add `recording = "..."` to each once the videos
+# are published on https://www.youtube.com/@PyLadiesVancouver.
+[[talks]]
+  title = "What Happens When Your Agent Has to Wait for a Human"
+  speaker = "melanie-warrick"
+
+[[talks]]
+  title = "A Practical Introduction to Generative AI and Large Language Models"
+  speaker = "daniel-chen"
 +++
 
 This month we have **two talks** on AI agents and large language models:
