@@ -64,4 +64,8 @@ title = "Home"
     label = "Read the handbook"
     url = "/handbook/"
     variant = "outline"
+  [[getInvolved.ctas]]
+    label = "Donate"
+    url = "/donate/"
+    variant = "secondary"
 +++
