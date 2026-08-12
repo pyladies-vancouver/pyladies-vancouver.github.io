@@ -133,6 +133,9 @@ Paste this into the Luma event description (it's Markdown) and fill in the talk 
 details from Sessionize. Adjust the agenda times to match the program. Luma supports only
 two heading levels (`#` and `##`).
 
+The template below is for a **single-talk meetup**. For a night of short talks, use the
+[lightning talks variant](#variant-a-lightning-talks-night) further down.
+
 ````markdown
 Join PyLadies Vancouver for our meetup at **[VENUE]**!
 
@@ -177,6 +180,74 @@ Please stay within the designated event areas. Photos of our event and attendees
 their consent) are welcome. All attendees must follow the
 [PyLadies Code of Conduct](https://www.pyladies.com/CodeOfConduct/).
 ````
+
+### Variant: a lightning talks night
+
+A night of short talks needs a different shape: the lineup carries the description, and the
+call for talks usually stays open after the event is published, because lightning talk
+slots fill late. Lead with the RSVP, list the talks, then invite the remaining speakers.
+
+````markdown
+PyLadies Vancouver and **[PARTNER GROUP]** are teaming up for a night of lightning talks:
+short talks from speakers in both communities.
+
+Doors at [TIME], talks from [TIME] to [TIME], then time to hang around and talk to people.
+[Food note.]
+
+## The lineup
+
+**[TALK TITLE]**
+*[SPEAKER NAME], [ROLE]*
+
+[TALK ABSTRACT]
+
+*(repeat per talk)*
+
+## Want to speak? We have room for more
+
+We're still accepting talk submissions for this event. Lightning talks are **5 to 15
+minutes**, from either community. It's the lowest-pressure way to get on stage: you explain
+one thing you know, and then you sit down. Beginners especially welcome, and you're welcome
+to reuse a talk you've given elsewhere.
+
+- [Submit a talk](https://sessionize.com/pyladies-vancouver-meetup/)
+- [New to the format? Read our lightning talks guide](https://vancouver.pyladies.com/lightning-talks/)
+
+## Where
+
+**[VENUE]**, [ADDRESS]
+
+[Transit, parking, and which door to use.]
+
+## Cost
+
+Free. When you get your ticket you'll see a pay what you want option with a suggested
+**CA$10** donation, which goes back into snacks, supplies, and the room. It's entirely
+optional, so if you can't donate, come anyway.
+
+## First time?
+
+Tell us when you arrive and we'll introduce you to someone.
+
+PyLadies events follow the [PyLadies Code of Conduct](https://www.pyladies.com/CodeOfConduct/).
+[For a joint event, link the partner community's code of conduct here too.]
+
+[Full lineup and details on our website]([LINK TO THE ANNOUNCEMENT POST])
+
+Thank you to **[VENUE]** for hosting us.
+````
+
+Notes on this variant:
+
+- **Keep the call for talks in the description**, and update the lineup as submissions come
+  in. The event page under `content/events/` and the announcement blog post should say the
+  same thing, so all three move together.
+- **A joint event needs both codes of conduct.** Link the partner community's alongside
+  ours, and say so in the announcement post as well.
+- **Name what the donation pays for.** Free is not the same as costless, and a suggested
+  amount with an explicit "come anyway" is clearer than an unexplained donation prompt.
+- Speaker names, roles, and abstracts come from Sessionize; see
+  [Working with Sessionize](#working-with-sessionize).
 
 ### Other fields to set on Luma
 
