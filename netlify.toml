@@ -3,7 +3,8 @@
   command = "hugo --gc --minify"
 
   [build.environment]
-    HUGO_VERSION = "0.141.0"
+    # The Popular theme requires Hugo 0.146.0 or newer as of v0.10.0.
+    HUGO_VERSION = "0.160.1"
 
 [context.production.environment]
   HUGO_ENV           = "production"
