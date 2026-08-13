@@ -112,7 +112,7 @@ Add them to `content/speakers/` and add the talk to the event page, see [Updatin
 Add the talk to the Luma description and the announcement blog post.
 Confirm the running order and each speaker's slot a few days before, so nobody is guessing.
 On the night, greet them on arrival, test their laptop with the projector before doors, introduce them, and keep time.
-Afterwards, thank them, ask for their slides, and link the slides in the recap.
+Afterwards, thank them, and offer to link their slides in the recap if they want to share them.
 {{% /checklist %}}
 
 Keep the promises small and specific. A speaker who knows the room, the slot, and the
@@ -171,7 +171,8 @@ All speakers follow the [PyLadies Code of Conduct](https://www.pyladies.com/Code
 If your plans change, tell us as early as you can and we will adjust the program. No
 awkwardness, it happens.
 
-Afterwards we will ask for your slides so we can link them from the recap.
+If you would like to share your slides afterwards, we are happy to link them from the
+recap. Entirely optional, and plenty of speakers would rather not.
 
 Reply to this so we know it reached you, and ask us anything.
 
@@ -187,7 +188,7 @@ the event:
 - **Prepare one idea**, timed to their slot, with a backup for any live demo.
 - **Bring their own laptop**, or tell us what they need instead, in advance.
 - **Arrive early**, in time to test the projector before doors.
-- **Send slides afterwards**, for the recap.
+- **Share slides afterwards if they want to**, so we can link them from the recap.
 
 ## Prepare the event assets
 
