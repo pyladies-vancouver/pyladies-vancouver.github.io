@@ -93,6 +93,102 @@ Collect a headshot for the event page and promotion.
 Keep vancouver@pyladies.com CC'd on speaker communications.
 {{% /checklist %}}
 
+## Once a talk is accepted
+
+Accepting a talk starts a small sequence, and the speaker cannot do their part until we do
+ours. Confirm the speaker, get them registered like any other attendee, and send them the
+prep guides. A first-time speaker will not know to ask for any of it.
+
+### What the organizer does
+
+{{% checklist key="rb-speaker-confirmed" %}}
+Accept the talk in Sessionize, and update anyone you are not taking so nobody waits.
+Send the confirmation message below, and ask for a reply so you know it landed.
+Ask them to RSVP on Luma like everyone else, so headcount, reminders, and check-in are right.
+Point them at the [Lightning Talks guide](/lightning-talks/) or [Speak at our meetup](/speak/), whichever fits their format.
+Ask what they need to present: their own laptop, an adapter, or a laptop to borrow.
+Ask about access needs, name pronunciation, and how they want to be introduced.
+Add them to `content/speakers/` and add the talk to the event page, see [Updating the website](#updating-the-website).
+Add the talk to the Luma description and the announcement blog post.
+Confirm the running order and each speaker's slot a few days before, so nobody is guessing.
+On the night, greet them on arrival, test their laptop with the projector before doors, introduce them, and keep time.
+Afterwards, thank them, ask for their slides, and link the slides in the recap.
+{{% /checklist %}}
+
+Keep the promises small and specific. A speaker who knows the room, the slot, and the
+adapter situation walks in calm.
+
+### The confirmation message
+
+Send this once the talk is accepted, adjusting the slot length and times to the program.
+
+````markdown
+Hi [NAME],
+
+Your talk **[TALK TITLE]** is confirmed for our meetup on **[DAY, DATE]** at **[VENUE]**,
+[ADDRESS]. You have **[N] minutes**, and the talks run from [TIME] to [TIME].
+
+**Please RSVP on Luma** like everyone else, so our headcount and check-in list are right:
+[LUMA LINK]
+
+**Please arrive by [TIME]**, ahead of doors, so we can plug your laptop in and check it on
+the projector before the room fills up.
+
+## Preparing your talk
+
+Our guide walks through the whole thing, and it is worth ten minutes of your time:
+[LINK: /lightning-talks/ or /speak/]
+
+The short version:
+
+- Pick one idea and cut the rest.
+- Slides are optional. Big text, few words, and no live demo without a screenshot or a
+  recorded clip as backup.
+- Practise once or twice against a timer. Every slot is shorter than it sounds.
+- Aim at a friendly, mixed-experience audience: assume curiosity, not expertise.
+
+## What to bring
+
+**Bring your own laptop** if you can. Tell us in advance if you need anything else:
+
+- An adapter, or which port your laptop has, so we can have the right cable ready
+- A laptop to borrow, if you would rather present from ours (send your slides ahead)
+- Anything else that would make presenting easier
+
+## A few questions
+
+- How do you say your name, and how would you like to be introduced?
+- Do you have any access needs we should sort out in advance?
+- Anything else you would like us to mention when we introduce you?
+
+## The rest
+
+We will share the running order before the night, introduce you, and give you a gentle
+heads-up as your time runs out. Questions from the room are friendly and optional: tell us
+if you would rather not take any.
+
+All speakers follow the [PyLadies Code of Conduct](https://www.pyladies.com/CodeOfConduct/).
+If your plans change, tell us as early as you can and we will adjust the program. No
+awkwardness, it happens.
+
+Afterwards we will ask for your slides so we can link them from the recap.
+
+Reply to this so we know it reached you, and ask us anything.
+
+[YOUR NAME], PyLadies Vancouver
+````
+
+### What the speaker does
+
+The message above asks for all of it, but this is the short list to check against before
+the event:
+
+- **RSVP on Luma**, like any other attendee.
+- **Prepare one idea**, timed to their slot, with a backup for any live demo.
+- **Bring their own laptop**, or tell us what they need instead, in advance.
+- **Arrive early**, in time to test the projector before doors.
+- **Send slides afterwards**, for the recap.
+
 ## Prepare the event assets
 
 Gather the images and graphics an event needs. Banners are **16:9, 1600×900px or larger**,
