@@ -1,23 +1,20 @@
 +++
 title = "Your First Open Source Contribution: A Python Workshop"
-# PLACEHOLDER date, so the page sorts as upcoming while it is a draft. Replace
-# with the real start time before publishing, using the Vancouver offset
-# (-07:00 in summer, -08:00 in winter).
-date = 2026-10-14T18:00:00-07:00
-description = "A hands-on, beginner-focused workshop on contributing to open source in Python, from your first fork to a real pull request. Date, venue, and registration to be confirmed."
+# Saturday, February 13, 2027. The start time is not confirmed: 18:00 is only a
+# sort key, and no time is shown until `time` below is set. Vancouver offset is
+# -08:00 in winter, -07:00 in summer.
+date = 2027-02-13T18:00:00-08:00
+description = "A hands-on, beginner-focused workshop on contributing to open source in Python, from your first fork to a real pull request. Saturday, February 13, 2027 at Improving Vancouver. Registration opens closer to the date."
 tags = ["meetup", "workshop", "open source"]
-draft = true
 
-# Venue is not booked yet: this shows a "Venue wanted" badge on the events list.
-venueWanted = true
+venueRef = "improving-vancouver"
 
-# Fill these in as they are confirmed, then drop `draft = true`.
-# venueRef = "visst"      # a page in content/venues/
+# Still to confirm.
 # time = "6:00 PM"
 # speakers = []           # the instructor's page in content/speakers/
 # rsvp = ""               # registration link, once it is live
-# price = 0               # set this before publishing: with no `price`, the
-#                         # page's structured data advertises the event as free
+# price = 0               # with no `price`, the page's structured data
+#                         # advertises the event as free
 # image = "img/..."       # optional 16:9 social sharing preview
 +++
 
@@ -38,7 +35,6 @@ after the workshop ends.
 Working together on a friendly practice project, you'll get hands-on with:
 
 - Getting started in open source, and the many ways to get involved
-- Finding projects and issues that are a good fit for you
 - Git and GitHub for contributors: forking, branching, commits, and pull requests
 - Contributing documentation
 - Packaging a Python project
@@ -58,23 +54,28 @@ to open source. Everyone is welcome.
 We're putting the final pieces in place. Here's where things stand, with the rest coming
 soon:
 
-- Date and time: to be confirmed
-- Location: to be confirmed
+- Date: Saturday, February 13, 2027
+- Location: [Improving Vancouver](/venues/improving-vancouver/), 116 West 6th Avenue,
+  Suite 300
+- Start time: to be confirmed
 - Instructor: to be confirmed
 - Full schedule: to be confirmed
-- Registration: opening soon
+- Registration: to be confirmed
 
 ## Registration
 
-Registration is not open yet. It will open soon, and spaces will be limited. Check back on
+Registration is not open yet. Check back on
 this page for the registration link and full instructions, and follow us for updates so
 you don't miss the announcement.
 
 ## Good to know
 
-- Bring a laptop. A short setup guide will go out before the workshop so you arrive ready
-  to contribute.
+- Bring your own laptop.
+- This is an in-person workshop only, and it will not be recorded.
 - We follow the [PyLadies Code of Conduct](https://www.pyladies.com/CodeOfConduct/). Come
   as you are, ask questions freely, and remember that everyone was new once.
+
+Thank you to [**Improving Vancouver**](https://improving.com/locations/vancouver/) for
+hosting us.
 
 We can't wait to welcome you and help you make your first contribution. See you there.
