@@ -9,6 +9,10 @@ tags = ["meetup", "workshop", "open source"]
 
 venueRef = "improving-vancouver"
 
+# Still being planned: shows a "Planning" badge instead of "Confirmed", and
+# hides the RSVP button until this comes off, even once `rsvp` is filled in.
+planning = true
+
 # Still to confirm.
 # time = "6:00 PM"
 # speakers = []           # the instructor's page in content/speakers/
