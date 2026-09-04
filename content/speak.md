@@ -46,7 +46,8 @@ through first, reach out in the **#city-vancouver** channel on the
 - **Aim your talk at a friendly, mixed-experience audience**: assume curiosity, not
   expertise.
 - **Practice your timing** so you fit your slot, leaving room for questions.
-- **Share your slides** with us afterward: we like to link them from the event recap.
+- **Share your slides afterward if you'd like to**: we're happy to link them from the
+  event recap, and it's entirely up to you.
 
 ## On the night
 
