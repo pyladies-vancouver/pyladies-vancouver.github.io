@@ -65,8 +65,7 @@ Polyglot is a whole day of hallway track.
   this.
 - **Bring something you're actually curious about.** The sessions where I had a real
   question beat the ones that just sounded impressive.
-- **Tell us that you're going.** I will be there. Come say hi, and if enough of us land in
-  the same room, we might pitch a Python session together.
+- **Tell us that you're going.** I will be there. Come say hi.
 
 Hope to see you there.
 
