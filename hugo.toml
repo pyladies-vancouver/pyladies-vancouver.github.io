@@ -1,5 +1,5 @@
 baseURL = "https://vancouver.pyladies.com/"
-languageCode = "en-us"
+locale = "en-us"
 title = "PyLadies Vancouver"
 copyright = "Copyright © PyLadies Vancouver"
 
