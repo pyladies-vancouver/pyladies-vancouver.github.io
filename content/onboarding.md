@@ -18,13 +18,11 @@ steps to run a meetup, see the [Meetup Runbooks](/runbooks/).
 ## Where the team talks
 
 {{% checklist key="ob-communication" %}}
+Ask them to join the [PyLadies Slack](https://slackin.pyladies.com), so you can add them to channels.
 Add them to the **#vancouver-organizer** channel on the PyLadies Slack.
 Add them to the **#yvr-mail** channel on the PyLadies Slack.
 Add them to the **PyLadies Vancouver Organize** WhatsApp group.
 {{% /checklist %}}
-
-They need to be in the [PyLadies Slack](https://slackin.pyladies.com) workspace before you
-can add them to a channel.
 
 ## Event platforms
 
