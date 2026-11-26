@@ -37,6 +37,8 @@ Each guide is its own page:
 
 - **[Meetup Runbooks](/runbooks/)**: the behind-the-scenes steps we follow to run a
   meetup, from finding a date to publishing the recap
+- **[Onboarding a New Organizer](/onboarding/)**: the accounts, channels, and access a
+  new member of the organizing team needs
 - **[Contributing to the Website](/contributing/)**: how to add blog posts, events, and
   pages to this site
 

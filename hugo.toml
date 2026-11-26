@@ -236,5 +236,8 @@ buildFuture = true
         label = "Meetup Runbooks"
         url = "/runbooks/"
       [[params.footer.columns.links]]
+        label = "Onboarding a new organizer"
+        url = "/onboarding/"
+      [[params.footer.columns.links]]
         label = "Contribute to the website"
         url = "/contributing/"
