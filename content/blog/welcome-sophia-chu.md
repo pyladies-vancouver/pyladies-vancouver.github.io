@@ -7,8 +7,7 @@ tags: ["pyladies", "vancouver", "organizers", "community"]
 image: img/welcome-sophia-chu-banner.png
 ---
 
-We're excited to share that our organizing team is growing. Please welcome **Sophia Chu**,
-our newest organizer.
+Our organizing team is growing. Please welcome **Sophia Chu**, our newest organizer.
 
 {{% persona name="Sophia Chu" title="Co-organizer, PyLadies Vancouver" photo="img/speaker_sophia_chu.jpg" %}}
 Sophia is a Software Developer at Improving Vancouver, where she is working on a series of
@@ -24,6 +23,6 @@ she works, and in August she took the stage at our
 Boards: Psychology and AI*, a talk about why we hand AI agents our doubts and half-formed
 ideas, and what that does to developers and teams.
 
-We're looking forward to working with Sophia, and we hope you're looking forward to our
-future events too. Say hi to Sophia when you see her, and meet the whole team on the
-[Organizers](/organizers/) page.
+We're looking forward to working with Sophia, and to seeing you at our future events. Say
+hi to Sophia when you see her, and meet the whole team on the [Organizers](/organizers/)
+page.
