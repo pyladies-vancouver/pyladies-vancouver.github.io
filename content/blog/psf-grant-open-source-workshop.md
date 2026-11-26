@@ -2,12 +2,12 @@
 authors: ["mariatta"]
 title: "PyLadies Vancouver received 1,500 USD from the Python Software Foundation"
 date: 2026-11-26
-description: "PyLadies Vancouver has received a 1,500 USD Python Software Foundation grant for a hands-on workshop for first-time open source contributors. Save the date: Saturday, February 13, 2027."
+description: "A 1,500 USD Python Software Foundation grant will fund our workshop for first-time open source contributors on Saturday, February 13, 2027."
 tags: ["python", "pyladies", "vancouver", "workshop", "open source", "psf"]
 image: img/psf-grant-open-source-workshop-banner.png
 ---
 
-We're happy to share that PyLadies Vancouver received 1,500 USD in grants from the
+We're happy to share that PyLadies Vancouver received a 1,500 USD grant from the
 [Python Software Foundation](https://www.python.org/psf-landing/) (PSF).
 
 The grant will be used for a workshop we're planning:
@@ -22,7 +22,9 @@ We're proud to be one of the recipients in this round of PSF grants.
 - **Who it's for:** anyone who can write a little Python and is new to, or curious about,
   contributing to open source
 
-Subscribe to our events calendar to get the date in your own calendar app.
+Subscribe to our
+[Luma calendar](https://api.luma.com/ics/get?entity=calendar&id=cal-EefnU0O5BifyHgg) to get
+the date in your own calendar app, or use the events feed from this site:
 
 <div class="g-row">
   <a class="g-btn g-btn--outline" href="webcal://vancouver.pyladies.com/events/calendar.ics"><i class="fa-solid fa-calendar-plus" aria-hidden="true"></i> Subscribe to calendar</a>
@@ -61,8 +63,9 @@ Grants like this one are possible because people and companies support the PSF. 
 [year-end fundraiser](https://pyfound.blogspot.com/2026/11/python-is-for-everyone-join-in-psf-year.html)
 is on now, if you'd like to help it fund more community events.
 
-Organizing a Python event yourself? The PSF is reopening the Grants Program with two
-funding rounds a year. The next round takes applications from December 14, 2026 to
+Organizing a Python event yourself? The PSF is
+[reopening the Grants Program](https://pyfound.blogspot.com/2026/11/reopening-psf-grants-program-with-twice.html)
+with two funding rounds a year. The next round takes applications from December 14, 2026 to
 January 4, 2027, for conferences and workshops happening between May 1 and September 30,
 2027.
 
