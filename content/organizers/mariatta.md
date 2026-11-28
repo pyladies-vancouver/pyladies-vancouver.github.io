@@ -3,6 +3,7 @@ title = "Mariatta"
 weight = 10
 role = "Lead organizer · CPython core developer"
 description = "Keeps the meetups running, welcomes newcomers, and connects members with the wider Python community."
+photo = "img/organizer_mariatta.png"
 
 [[social]]
   label = "GitHub"
