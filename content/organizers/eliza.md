@@ -19,4 +19,4 @@ photo = "img/organizer_eliza.png"
   url = "mailto:vancouver@pyladies.com"
 +++
 
-Eliza is a Software Architect and Head of Engineering at Narratic Labs, CTSO at Women Who Drone, and Co Chair at PyCascades, a regional West Coast/Pacific Northwest python conference. She co-organizes PyLadies Vancouver, helping plan and run the meetups since 2018.
+Eliza is a Software Architect and Head of Engineering at Narratic Labs, CTSO at Women Who Drone, and Co Chair at PyCascades, a regional West Coast/Pacific Northwest Python conference. She co-organizes PyLadies Vancouver, helping plan and run the meetups since 2018.
