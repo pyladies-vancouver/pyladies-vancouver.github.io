@@ -2,7 +2,7 @@
 title = "Eliza Sarobhasa"
 weight = 15
 role = "Co-organizer"
-description = "Helps organize the meetups and keep PyLadies Vancouver welcoming. Available for hire/Open to work"
+description = "Helps organize the meetups and keep PyLadies Vancouver welcoming. Available for hire/open to work"
 photo = "img/organizer_eliza.png"
 
 [[social]]
